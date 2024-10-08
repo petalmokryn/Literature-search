@@ -13750,7 +13750,9 @@ Citation Key: Nielsen:2005mkt</dc:description>
             </rdf:Seq>
         </bib:authors>
         <link:link rdf:resource="#item_406"/>
+        <dc:subject>Algorithmic Dimensions</dc:subject>
         <dc:subject>Halting probability</dc:subject>
+        <dc:subject>Partial Randomness</dc:subject>
         <dc:subject>Tadaki</dc:subject>
         <dc:title>A generalization of Chaitin's halting probability $\Omega$ and halting self-similar sets</dc:title>
         <dc:date>2002-2-1</dc:date>
@@ -14252,6 +14254,310 @@ Version Number: 2</dc:description>
         <dc:title>PDF</dc:title>
         <link:type>application/pdf</link:type>
     </z:Attachment>
+    <bib:Book rdf:about="urn:isbn:978-3-662-04978-5">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Berlin, Heidelberg</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Springer Berlin Heidelberg</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Calude</foaf:surname>
+                        <foaf:givenName>Cristian S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1594"/>
+        <dc:subject>Basics</dc:subject>
+        <dc:title>Information and Randomness: an Algorithmic Perspective</dc:title>
+        <dcterms:abstract>The book presents in a mathematical clear way the fundamentals of algorithmic information theory and a few selected applications. This 2nd edition presents new and important results obtained in recent years: the characterization of computable enumerable random reals, the construction of an Omega Number for which ZFC cannot determine any digits, and the first successful attempt to compute the exact values of 64 bits of a specific Omega Number. Finally, the book contains a discussion of some interesting philosophical questions related to randomness and mathematical knowledge. &quot;Professor Calude has produced a first-rate exposition of up-to-date work in information and randomness.&quot; D.S. Bridges, Canterbury University, co-author, with Errett Bishop, of Constructive Analysis; &quot;The second edition of this classic work is highly recommended to anyone interested in algorithmic information and randomness.&quot; G.J. Chaitin, IBM Research Division, New York, author of Conversations with a Mathematician; &quot;This book is a must for a comprehensive introduction to algorithmic information theory and for anyone interested in its applications in the natural sciences.&quot; K. Svozil, Technical University of Vienna, author of Randomness &amp; Undecidability in Physics</dcterms:abstract>
+        <dc:date>2002</dc:date>
+        <z:language>eng</z:language>
+        <z:shortTitle>Information and Randomness</z:shortTitle>
+        <z:libraryCatalog>Open WorldCat</z:libraryCatalog>
+        <dc:description>OCLC: 851377084</dc:description>
+        <dc:identifier>ISBN 978-3-662-04978-5</dc:identifier>
+        <prism:edition>Second edition, revised and Extended</prism:edition>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_1594">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1594/Information and Randomness_ An Algorithmic Perspective.djvu.djvu"/>
+        <dc:title>Information and Randomness_ An Algorithmic Perspective.djvu</dc:title>
+        <link:type>application/octet-stream</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="urn:isbn:978-0-486-66521-4">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Dover Publications</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ash</foaf:surname>
+                        <foaf:givenName>Robert B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1597"/>
+        <dc:subject>Basics</dc:subject>
+        <dc:title>Information theory</dc:title>
+        <dc:date>1990</dc:date>
+        <z:libraryCatalog>Library of Congress ISBN</z:libraryCatalog>
+        <dc:subject>
+           <dcterms:LCC><rdf:value>Q360 .A8 1990</rdf:value></dcterms:LCC>
+        </dc:subject>
+        <dc:identifier>ISBN 978-0-486-66521-4</dc:identifier>
+        <z:numPages>339</z:numPages>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_1597">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1597/Ash R. - Information theory (1965).djvu"/>
+        <dc:title>Ash R. - Information theory (1965)</dc:title>
+        <link:type>application/octet-stream</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="urn:isbn:978-0-387-23795-4">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+               <dc:title>Information science and statistics</dc:title>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Springer</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wallace</foaf:surname>
+                        <foaf:givenName>Christopher S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1601"/>
+        <link:link rdf:resource="#item_1600"/>
+        <dc:title>Statistical and inductive inference by minimum message length</dc:title>
+        <dc:date>2005</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>K10plus ISBN</z:libraryCatalog>
+        <dc:identifier>ISBN 978-0-387-23795-4</dc:identifier>
+        <z:numPages>429</z:numPages>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_1601">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1601/(Information science and statistics) C.S. Wallace - Statistical and Inductive Inference by Minimum Message Length-Springer (2005).djvu"/>
+        <dc:title>(Information science and statistics) C.S. Wallace - Statistical and Inductive Inference by Minimum Message Length-Springer (2005)</dc:title>
+        <link:type>application/octet-stream</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1600">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1600/Wallace - 2005 - Statistical and inductive inference by minimum message length.pdf"/>
+        <dc:title>Table of Contents PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.gbv.de/dms/mpib-toc/470935278.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-08 11:33:55</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="urn:isbn:9789811507397%209789811507380">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+                <dc:title>SpringerBriefs in Mathematical Physics</dc:title>
+                <dc:identifier>volume 36</dc:identifier>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Singapore</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Springer Nature</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tadaki</foaf:surname>
+                        <foaf:givenName>Kohtaro</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1604"/>
+        <dc:subject>Algorithmic Dimensions</dc:subject>
+        <dc:subject>Algorithmic Thermodynamics</dc:subject>
+        <dc:subject>Reading list</dc:subject>
+        <dc:subject>Tadaki</dc:subject>
+        <dc:title>A statistical mechanical interpretation of algorithmic information theory</dc:title>
+        <dc:date>2019</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>K10plus ISBN</z:libraryCatalog>
+        <dc:identifier>ISBN 9789811507397 9789811507380</dc:identifier>
+        <z:numPages>136</z:numPages>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_1604">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1604/Tadaki - 2019 - A statistical mechanical interpretation of algorithmic information theory.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.cambridge.org/core/product/identifier/S096012951100051X/type/journal_article">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0960-1295,%201469-8072"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tadaki</foaf:surname>
+                        <foaf:givenName>Kohtaro</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1606"/>
+        <dc:subject>Algorithmic Dimensions</dc:subject>
+        <dc:subject>Algorithmic Thermodynamics</dc:subject>
+        <dc:subject>Tadaki</dc:subject>
+        <dc:title>A statistical mechanical interpretation of algorithmic information theory III: composite systems and fixed points</dc:title>
+        <dcterms:abstract>The statistical mechanical interpretation of algorithmic information theory (AIT for short) was introduced and developed in our previous papers Tadaki (2008; 2012), where we introduced into AIT the notion of thermodynamic quantities, such as the partition function
+              Z
+              (
+              T
+              ), free energy
+              F
+              (
+              T
+              ), energy
+              E
+              (
+              T
+              ) and statistical mechanical entropy
+              S
+              (
+              T
+              ). We then discovered that in the interpretation, the temperature
+              T
+              is equal to the partial randomness of the values of all these thermodynamic quantities, where the notion of partial randomness is a stronger representation of the compression rate by means of program-size complexity. Furthermore, we showed that this situation holds for the temperature itself as a thermodynamic quantity, namely, for each of the thermodynamic quantities above, the computability of its value at temperature
+              T
+              gives a sufficient condition for
+              T
+              ∈ (0, 1) to be a fixed point on partial randomness. In this paper, we develop the statistical mechanical interpretation of AIT further and pursue its formal correspondence to normal statistical mechanics. The thermodynamic quantities in AIT are defined on the basis of the halting set of an optimal prefix-free machine, which is a universal decoding algorithm used to define the notion of program-size complexity. We show that there are infinitely many optimal prefix-free machines that give completely different sufficient conditions for each of the thermodynamic quantities in AIT. We do this by introducing the notion of composition of prefix-free machines into AIT, which corresponds to the notion of the composition of systems in normal statistical mechanics.</dcterms:abstract>
+        <dc:date>10/2012</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>A statistical mechanical interpretation of algorithmic information theory III</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.cambridge.org/core/product/identifier/S096012951100051X/type/journal_article</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-08 11:45:21</dcterms:dateSubmitted>
+        <dc:rights>https://www.cambridge.org/core/terms</dc:rights>
+        <bib:pages>752-770</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0960-1295,%201469-8072">
+        <prism:volume>22</prism:volume>
+        <dc:title>Mathematical Structures in Computer Science</dc:title>
+        <dc:identifier>DOI 10.1017/S096012951100051X</dc:identifier>
+        <prism:number>5</prism:number>
+        <dcterms:alternative>Math. Struct. Comp. Sci.</dcterms:alternative>
+        <dc:identifier>ISSN 0960-1295, 1469-8072</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1606">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1606/Tadaki - 2012 - A statistical mechanical interpretation of algorithmic information theory III composite systems and.pdf"/>
+        <dc:title>Submitted Version</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/0904.0973</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-08 11:45:27</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://tadaki.org/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tadaki</foaf:surname>
+                        <foaf:givenName>Kohtaro</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>Tadaki</dc:subject>
+        <dc:title>Tadaki research summary</dc:title>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>https://tadaki.org/</rdf:value></dcterms:URI>
+        </dc:identifier>
+    </bib:Document>
+    <bib:ConferenceProceedings rdf:about="https://tadaki.org/alc2013.pdf">
+        <z:itemType>presentation</z:itemType>
+        <z:presenters>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tadaki</foaf:surname>
+                        <foaf:givenName>Kohtaro</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:presenters>
+        <link:link rdf:resource="#item_1609"/>
+        <dc:subject>Reading list</dc:subject>
+        <dc:subject>Tadaki</dc:subject>
+        <dc:title>Recent developments in statistical mechanical interpretation of algorithmic information theory</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://tadaki.org/alc2013.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+    </bib:ConferenceProceedings>
+    <z:Attachment rdf:about="#item_1609">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1609/_.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
     <z:Collection rdf:about="#collection_11">
         <dc:title>Current Interests</dc:title>
         <dcterms:hasPart rdf:resource="#collection_2"/>
@@ -14374,12 +14680,19 @@ Version Number: 2</dc:description>
         <dcterms:hasPart rdf:resource="https://johncarlosbaez.wordpress.com/2011/01/06/algorithmic-thermodynamics-part-2/"/>
         <dcterms:hasPart rdf:resource="#item_424"/>
         <dcterms:hasPart rdf:resource="urn:isbn:978-0-7503-2640-7%20978-0-7503-2638-4"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:9789811507397%209789811507380"/>
+        <dcterms:hasPart rdf:resource="https://www.cambridge.org/core/product/identifier/S096012951100051X/type/journal_article"/>
+        <dcterms:hasPart rdf:resource="https://tadaki.org/"/>
+        <dcterms:hasPart rdf:resource="https://tadaki.org/alc2013.pdf"/>
     </z:Collection>
     <z:Collection rdf:about="#collection_19">
         <dc:title>Basics</dc:title>
         <dcterms:hasPart rdf:resource="#item_52"/>
         <dcterms:hasPart rdf:resource="#item_424"/>
         <dcterms:hasPart rdf:resource="urn:isbn:978-0-7503-2640-7%20978-0-7503-2638-4"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-3-662-04978-5"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-0-486-66521-4"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-0-387-23795-4"/>
     </z:Collection>
     <z:Collection rdf:about="#collection_16">
         <dc:title>Generalized Crystals</dc:title>
