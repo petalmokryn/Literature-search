@@ -487,6 +487,7 @@ S2ID: 15b078ee084793da2720718a1a30b2f0c8a12ad2</dc:description>
             </rdf:Seq>
         </bib:authors>
         <link:link rdf:resource="#item_393"/>
+        <dc:subject>Non-Equilibrium Thermodynamics</dc:subject>
         <dc:title>Temperature in non-equilibrium states: a review of open problems and current proposals</dc:title>
         <dcterms:abstract>The conceptual problems arising in the definition and measurement of temperature in non-equilibrium states are discussed in this paper in situations where the local-equilibrium hypothesis is no longer satisfactory. This is a necessary and urgent discussion because of the increasing interest in thermodynamic theories beyond local equilibrium, in computer simulations, in non-linear statistical mechanics, in new experiments, and in technological applications of nanoscale systems and material sciences. First, we briefly review the concept of temperature from the perspectives of equilibrium thermodynamics and statistical mechanics. Afterwards, we explore which of the equilibrium concepts may be extrapolated beyond local equilibrium and which of them should be modified, then we review several attempts to define temperature in non-equilibrium situations from macroscopic and microscopic bases. A wide review of proposals is offered on effective non-equilibrium temperatures and their application to ideal and real gases, electromagnetic radiation, nuclear collisions, granular systems, glasses, sheared fluids, amorphous semiconductors and turbulent fluids. The consistency between the different relativistic transformation laws for temperature is discussed in the new light gained from this perspective. A wide bibliography is provided in order to foster further research in this field.</dcterms:abstract>
         <dc:date>2003-11-01</dc:date>
@@ -2610,6 +2611,7 @@ PMID: 19792799</dc:description>
         </bib:authors>
         <link:link rdf:resource="#item_372"/>
         <dc:subject>Crutchfield</dc:subject>
+        <dc:subject>Reading list</dc:subject>
         <dc:title>Between order and chaos</dc:title>
         <dcterms:abstract>A completely ordered universe is as unexciting as an entirely disordered one. Interesting ‘complex’ phenomena arise in a middle ground. This article reviews the tools that have been developed to quantify structural complexity and to automatically discover patterns hidden between order and chaos.</dcterms:abstract>
         <dc:date>2012-01-01</dc:date>
@@ -2712,8 +2714,8 @@ Citation Key: DAriano:2016njq</dc:description>
             </rdf:Seq>
         </bib:authors>
         <link:link rdf:resource="#item_383"/>
-        <dc:subject>Computational mechanics</dc:subject>
         <dc:subject>Crutchfield</dc:subject>
+        <dc:subject>Computational mechanics</dc:subject>
         <dc:subject>Reading list</dc:subject>
         <dc:title>Pattern Discovery and Computational Mechanics</dc:title>
         <dcterms:abstract>Computational mechanics is a method for discovering, describing and quantifying patterns, using tools from statistical physics. It contructs optimal, minimal models of stochastic processes and their underlying causal structures. These models tell us about the intrinsic computation embedded within a process -- how it stores and transforms information. Here we summarize the mathematics of computational mechanics, especially recent optimality and uniqueness results. We also expound the principles and motivations underlying computational mechanics, emphasizing its connections to the minimum description length principle, PAC theory, and other aspects of machine learning.</dcterms:abstract>
@@ -3192,8 +3194,8 @@ PMID: 22615461</dc:description>
             </rdf:Seq>
         </bib:authors>
         <link:link rdf:resource="#item_339"/>
-        <dc:subject>Reading list</dc:subject>
         <dc:subject>Simplicity Bias</dc:subject>
+        <dc:subject>Reading list</dc:subject>
         <dc:title>Input-output maps are strongly biased towards simple outputs.</dc:title>
         <dcterms:abstract>Many systems in nature can be described using discrete input–output maps. Without knowing details about a map, there may seem to be no a priori reason to expect that a randomly chosen input would be more likely to generate one output over another. Here, by extending fundamental results from algorithmic information theory, we show instead that for many real-world maps, the a priori probability P(x) that randomly sampled inputs generate a particular output x decays exponentially with the approximate Kolmogorov complexity                                                                           $$\tilde K(x)$$
                                                                                                               K
@@ -3246,15 +3248,23 @@ MAG ID: 2794316594</dc:description>
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <link:link rdf:resource="#item_1610"/>
         <link:link rdf:resource="#item_343"/>
-        <dc:subject>Computational mechanics</dc:subject>
         <dc:subject>Crutchfield</dc:subject>
+        <dc:subject>Computational mechanics</dc:subject>
         <dc:subject>Emergence</dc:subject>
         <dc:subject>Reading list</dc:subject>
+        <dc:subject>Non-Equilibrium Thermodynamics</dc:subject>
         <dc:title>On Principles of Emergent Organization</dc:title>
         <dcterms:abstract>After more than a century of concerted effort, physics still lacks basic principles of spontaneous self-organization. To appreciate why, we first state the problem, outline historical approaches, and survey the present state of the physics of self-organization. This frames the particular challenges arising from mathematical intractability and the resulting need for computational approaches, as well as those arising from a chronic failure to define structure. Then, an overview of two modern mathematical formulations of organization—intrinsic computation and evolution operators—lays out a way to overcome these challenges. Together, the vantage point they afford shows how to account for the emergence of structured states via a statistical mechanics of systems arbitrarily far from equilibrium. The result is a constructive path forward to principles of organization that builds on mathematical identification of structure.</dcterms:abstract>
         <dc:description>DOI: 10.48550/arxiv.2311.13749</dc:description>
     </bib:Article>
+    <z:Attachment rdf:about="#item_1610">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1610/1-s2.0-S0370157324001327-main.pdf"/>
+        <dc:title>1-s2.0-S0370157324001327-main</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
     <z:Attachment rdf:about="#item_343">
         <z:itemType>attachment</z:itemType>
         <rdf:resource rdf:resource="files/343/On Principles of Emergent Organization.pdf"/>
@@ -3728,6 +3738,7 @@ MAG ID: 2001616149</dc:description>
         </bib:authors>
         <link:link rdf:resource="#item_380"/>
         <dc:subject>Crutchfield</dc:subject>
+        <dc:subject>Reading list</dc:subject>
         <dc:title>Inferring statistical complexity.</dc:title>
         <dcterms:abstract>Statistical mechanics is used to describe the observed information processing complexity of nonlinear dynamical systems. We introduce a measure of complexity distinct from and dual to the information theoretic entropies and dimensions. A technique is presented that directly reconstructs minimal equations of motion from the recursive structure of measurement sequences. Application to the period-doubling cascade demonstrates a form of superuniversality that refers only to the entropy and complexity of a data stream.</dcterms:abstract>
         <dc:date>1989-07-10</dc:date>
@@ -13687,8 +13698,8 @@ Citation Key: Dai:2023ylq</dc:description>
         <dcterms:isReferencedBy rdf:resource="#item_402"/>
         <link:link rdf:resource="#item_403"/>
         <link:link rdf:resource="#item_404"/>
-        <dc:subject>Circuit approach</dc:subject>
         <dc:subject>Quantum processes</dc:subject>
+        <dc:subject>Circuit approach</dc:subject>
         <dc:title>A geometric approach to quantum circuit lower bounds</dc:title>
         <dcterms:abstract>What is the minimal size quantum circuit required to exactly implement a specified n-qubit unitary operation, U, without the use of ancilla qubits? We show that a lower bound on the minimal size is provided by the length of the minimal geodesic between U and the identity, I, where length is defined by a suitable Finsler metric on the manifold SU(2^n). The geodesic curves on these manifolds have the striking property that once an initial position and velocity are set, the remainder of the geodesic is completely determined by a second order differential equation known as the geodesic equation. This is in contrast with the usual case in circuit design, either classical or quantum, where being given part of an optimal circuit does not obviously assist in the design of the rest of the circuit. Geodesic analysis thus offers a potentially powerful approach to the problem of proving quantum circuit lower bounds. In this paper we construct several Finsler metrics whose minimal length geodesics provide lower bounds on quantum circuit size. For each Finsler metric we give a procedure to compute the corresponding geodesic equation. We also construct a large class of solutions to the geodesic equation, which we call \emph{Pauli geodesics}, since they arise from isometries generated by the Pauli group. For any unitary U diagonal in the computational basis, we show that: (a) provided the minimal length geodesic is unique, it must be a Pauli geodesic; (b) finding the length of the minimal Pauli geodesic passing from I to U is equivalent to solving an exponential size instance of the closest vector in a lattice problem (CVP); and (c) all but a doubly exponentially small fraction of such unitaries have minimal Pauli geodesics of exponential length.</dcterms:abstract>
         <dc:date>2006</dc:date>
@@ -13750,10 +13761,10 @@ Citation Key: Nielsen:2005mkt</dc:description>
             </rdf:Seq>
         </bib:authors>
         <link:link rdf:resource="#item_406"/>
-        <dc:subject>Algorithmic Dimensions</dc:subject>
-        <dc:subject>Halting probability</dc:subject>
-        <dc:subject>Partial Randomness</dc:subject>
         <dc:subject>Tadaki</dc:subject>
+        <dc:subject>Halting probability</dc:subject>
+        <dc:subject>Algorithmic Dimensions</dc:subject>
+        <dc:subject>Partial Randomness</dc:subject>
         <dc:title>A generalization of Chaitin's halting probability $\Omega$ and halting self-similar sets</dc:title>
         <dc:date>2002-2-1</dc:date>
         <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
@@ -13807,14 +13818,14 @@ Citation Key: Nielsen:2005mkt</dc:description>
             </rdf:Seq>
         </bib:authors>
         <link:link rdf:resource="#item_408"/>
-        <dc:subject>MDL</dc:subject>
-        <dc:subject>MML</dc:subject>
         <dc:subject>Reading list</dc:subject>
         <dc:subject>
             <z:AutomaticTag>
                <rdf:value>Statistics - Methodology</rdf:value>
             </z:AutomaticTag>
         </dc:subject>
+        <dc:subject>MML</dc:subject>
+        <dc:subject>MDL</dc:subject>
         <dc:title>Introduction to minimum message length inference</dc:title>
         <dcterms:abstract>The aim of this manuscript is to introduce the Bayesian minimum message length principle of inductive inference to a general statistical audience that may not be familiar with information theoretic statistics. We describe two key minimum message length inference approaches and demonstrate how the principle can be used to develop a new Bayesian alternative to the frequentist $t$-test as well as new approaches to hypothesis testing for the correlation coefficient. Lastly, we compare the minimum message length approach to the closely related minimum description length principle and discuss similarities and differences between both approaches to inference.</dcterms:abstract>
         <dc:date>2022-09-29</dc:date>
@@ -13862,8 +13873,9 @@ Citation Key: Nielsen:2005mkt</dc:description>
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
-        <dc:subject>MML</dc:subject>
+        <link:link rdf:resource="#item_1649"/>
         <dc:subject>Statistics - Methodology</dc:subject>
+        <dc:subject>MML</dc:subject>
         <dc:title>MML, Hybrid Bayesian Network Graphical Models, Statistical Consistency, Invariance and Uniqueness</dc:title>
         <dc:date>2011</dc:date>
         <z:language>en</z:language>
@@ -13877,6 +13889,12 @@ Citation Key: Nielsen:2005mkt</dc:description>
         <dc:description>DOI: 10.1016/B978-0-444-51862-0.50030-7</dc:description>
         <bib:pages>901-982</bib:pages>
     </bib:BookSection>
+    <z:Attachment rdf:about="#item_1649">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1649/Dowe - 2011 - MML, Hybrid Bayesian Network Graphical Models, Statistical Consistency, Invariance and Uniqueness.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
     <bib:Report rdf:about="https://bridges.monash.edu/articles/report/Potential_Properties_of_Turing_Machines/20365185/1">
         <z:itemType>report</z:itemType>
         <dc:publisher>
@@ -13991,9 +14009,9 @@ DOI: 10.26180/20365185.V1</dc:description>
             </rdf:Seq>
         </z:presenters>
         <link:link rdf:resource="#item_415"/>
+        <dc:subject>Reading list</dc:subject>
         <dc:subject>Algorithmic Thermodynamics</dc:subject>
         <dc:subject>John Baez</dc:subject>
-        <dc:subject>Reading list</dc:subject>
         <dc:title>Computation and Thermodynamics</dc:title>
         <dc:identifier>
             <dcterms:URI>
@@ -14020,6 +14038,7 @@ DOI: 10.26180/20365185.V1</dc:description>
         </z:presenters>
         <link:link rdf:resource="#item_417"/>
         <dc:subject>Reading list</dc:subject>
+        <dc:subject>Non-Equilibrium Thermodynamics</dc:subject>
         <dc:title>A brief introduction to the delights of non-equilibrium statistical physics</dc:title>
         <dc:identifier>
             <dcterms:URI>
@@ -14080,6 +14099,7 @@ DOI: 10.26180/20365185.V1</dc:description>
             </rdf:Seq>
         </bib:authors>
         <link:link rdf:resource="#item_419"/>
+        <dc:subject>Non-Equilibrium Thermodynamics</dc:subject>
         <dc:title>Equalities and Inequalities: Irreversibility and the Second Law of Thermodynamics at the Nanoscale</dc:title>
         <dcterms:abstract>The reason we never observe violations of the second law of thermodynamics is a matter of statistics: When very many degrees of freedom are involved, the odds are overwhelmingly stacked against the po</dcterms:abstract>
         <dc:date>2013</dc:date>
@@ -14130,6 +14150,7 @@ Citation Key: Jarzynski:2013qyb</dc:description>
             </rdf:Seq>
         </bib:authors>
         <dcterms:isReferencedBy rdf:resource="#item_421"/>
+        <link:link rdf:resource="#item_1650"/>
         <dc:subject>Algorithmic Thermodynamics</dc:subject>
         <dc:subject>John Baez</dc:subject>
         <dc:title>Algorithmic Thermodynamics</dc:title>
@@ -14150,6 +14171,19 @@ Version Number: 2</dc:description>
         <rdf:value>&lt;h2&gt;Other&lt;/h2&gt;
 20 pages, one encapsulated postscript figure</rdf:value>
     </bib:Memo>
+    <z:Attachment rdf:about="#item_1650">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1650/Baez and Stay - 2010 - Algorithmic Thermodynamics.pdf"/>
+        <dc:title>Preprint PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/pdf/1010.2067v2</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-21 02:19:02</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
     <bib:Document rdf:about="https://johncarlosbaez.wordpress.com/2010/10/12/algorithmic-thermodynamics/">
         <z:itemType>blogPost</z:itemType>
         <dcterms:isPartOf>
@@ -14240,8 +14274,8 @@ Version Number: 2</dc:description>
             </rdf:Seq>
         </bib:authors>
         <link:link rdf:resource="#item_428"/>
-        <dc:subject>Algorithmic Thermodynamics</dc:subject>
         <dc:subject>Reading list</dc:subject>
+        <dc:subject>Algorithmic Thermodynamics</dc:subject>
         <dc:title>Algorithmic information theory for physicists and natural scientists</dc:title>
         <dc:date>2020</dc:date>
         <z:language>eng</z:language>
@@ -14361,7 +14395,9 @@ Version Number: 2</dc:description>
             </rdf:Seq>
         </bib:authors>
         <link:link rdf:resource="#item_1601"/>
+        <link:link rdf:resource="#item_1666"/>
         <link:link rdf:resource="#item_1600"/>
+        <dc:subject>Reading list</dc:subject>
         <dc:title>Statistical and inductive inference by minimum message length</dc:title>
         <dc:date>2005</dc:date>
         <z:language>eng</z:language>
@@ -14374,6 +14410,12 @@ Version Number: 2</dc:description>
         <rdf:resource rdf:resource="files/1601/(Information science and statistics) C.S. Wallace - Statistical and Inductive Inference by Minimum Message Length-Springer (2005).djvu"/>
         <dc:title>(Information science and statistics) C.S. Wallace - Statistical and Inductive Inference by Minimum Message Length-Springer (2005)</dc:title>
         <link:type>application/octet-stream</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1666">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1666/Chapter 8 - Feathered arrow of time.pdf"/>
+        <dc:title>Chapter 8 - Feathered arrow of time</dc:title>
+        <link:type>application/pdf</link:type>
     </z:Attachment>
     <z:Attachment rdf:about="#item_1600">
         <z:itemType>attachment</z:itemType>
@@ -14417,10 +14459,10 @@ Version Number: 2</dc:description>
             </rdf:Seq>
         </bib:authors>
         <link:link rdf:resource="#item_1604"/>
-        <dc:subject>Algorithmic Dimensions</dc:subject>
-        <dc:subject>Algorithmic Thermodynamics</dc:subject>
         <dc:subject>Reading list</dc:subject>
         <dc:subject>Tadaki</dc:subject>
+        <dc:subject>Algorithmic Thermodynamics</dc:subject>
+        <dc:subject>Algorithmic Dimensions</dc:subject>
         <dc:title>A statistical mechanical interpretation of algorithmic information theory</dc:title>
         <dc:date>2019</dc:date>
         <z:language>eng</z:language>
@@ -14448,9 +14490,9 @@ Version Number: 2</dc:description>
             </rdf:Seq>
         </bib:authors>
         <link:link rdf:resource="#item_1606"/>
-        <dc:subject>Algorithmic Dimensions</dc:subject>
-        <dc:subject>Algorithmic Thermodynamics</dc:subject>
         <dc:subject>Tadaki</dc:subject>
+        <dc:subject>Algorithmic Thermodynamics</dc:subject>
+        <dc:subject>Algorithmic Dimensions</dc:subject>
         <dc:title>A statistical mechanical interpretation of algorithmic information theory III: composite systems and fixed points</dc:title>
         <dcterms:abstract>The statistical mechanical interpretation of algorithmic information theory (AIT for short) was introduced and developed in our previous papers Tadaki (2008; 2012), where we introduced into AIT the notion of thermodynamic quantities, such as the partition function
               Z
@@ -14558,10 +14600,402 @@ Version Number: 2</dc:description>
         <dc:title>PDF</dc:title>
         <link:type>application/pdf</link:type>
     </z:Attachment>
+    <bib:Article rdf:about="https://www.journals.uchicago.edu/doi/10.1093/bjps/axx046">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0007-0882,%201464-3537"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Millhouse</foaf:surname>
+                        <foaf:givenName>Tyler</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1651"/>
+        <dc:subject>Computational interpretation of physical systems</dc:subject>
+        <dc:title>A Simplicity Criterion for Physical Computation</dc:title>
+        <dc:date>2019-03-01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.journals.uchicago.edu/doi/10.1093/bjps/axx046</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-20 13:49:27</dcterms:dateSubmitted>
+        <dc:rights>https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model</dc:rights>
+        <bib:pages>153-178</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0007-0882,%201464-3537">
+        <prism:volume>70</prism:volume>
+        <dc:title>The British Journal for the Philosophy of Science</dc:title>
+        <dc:identifier>DOI 10.1093/bjps/axx046</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>The British Journal for the Philosophy of Science</dcterms:alternative>
+        <dc:identifier>ISSN 0007-0882, 1464-3537</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1651">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1651/Millhouse - 2019 - A Simplicity Criterion for Physical Computation.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.journals.uchicago.edu/doi/pdf/10.1093/bjps/axx046</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-21 02:19:55</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://link.aps.org/doi/10.1103/PhysRevResearch.2.033312">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2643-1564"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kolchinsky</foaf:surname>
+                        <foaf:givenName>Artemy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wolpert</foaf:surname>
+                        <foaf:givenName>David H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1648"/>
+        <dc:subject>Turing Machines</dc:subject>
+        <dc:subject>Algorithmic Thermodynamics</dc:subject>
+        <dc:title>Thermodynamic costs of Turing machines</dc:title>
+        <dc:date>2020-8-26</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.aps.org/doi/10.1103/PhysRevResearch.2.033312</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-20 12:18:39</dcterms:dateSubmitted>
+        <bib:pages>033312</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2643-1564">
+        <prism:volume>2</prism:volume>
+        <dc:title>Physical Review Research</dc:title>
+        <dc:identifier>DOI 10.1103/PhysRevResearch.2.033312</dc:identifier>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>Phys. Rev. Research</dcterms:alternative>
+        <dc:identifier>ISSN 2643-1564</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1648">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1648/Kolchinsky and Wolpert - 2020 - Thermodynamic costs of Turing machines.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://journals.aps.org/prresearch/pdf/10.1103/PhysRevResearch.2.033312</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-21 02:16:02</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://royalsocietypublishing.org/doi/10.1098/rsta.2016.0338">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>375</prism:volume>
+                <dc:title>Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences</dc:title>
+                <dc:identifier>DOI 10.1098/rsta.2016.0338</dc:identifier>
+                <prism:number>2109</prism:number>
+                <dcterms:alternative>Phil. Trans. R. Soc. A.</dcterms:alternative>
+                <dc:identifier>ISSN 1364-503X, 1471-2962</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Flack</foaf:surname>
+                        <foaf:givenName>Jessica C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>⛔ No INSPIRE recid found</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>Computational mechanics</dc:subject>
+        <dc:subject>Emergence</dc:subject>
+        <dc:subject>Computational interpretation of physical systems</dc:subject>
+        <dc:title>Coarse-graining as a downward causation mechanism</dc:title>
+        <dcterms:abstract>Downward causation is the controversial idea that ‘higher’ levels of organization can causally influence behaviour at ‘lower’ levels of organization. Here I propose that we can gain traction on downward causation by being operational and examining how adaptive systems identify regularities in evolutionary or learning time and use these regularities to guide behaviour. I suggest that in many adaptive systems components collectively compute their macroscopic worlds through coarse-graining. I further suggest we move from simple feedback to downward causation when components tune behaviour in response to estimates of collectively computed macroscopic properties. I introduce a weak and strong notion of downward causation and discuss the role the strong form plays in the origins of new organizational levels. I illustrate these points with examples from the study of biological and social systems and deep neural networks.
+            This article is part of the themed issue ‘Reconceptualizing the origins of life’.</dcterms:abstract>
+        <dc:date>2017-12-28</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://royalsocietypublishing.org/doi/10.1098/rsta.2016.0338</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-21 02:55:51</dcterms:dateSubmitted>
+        <bib:pages>20160338</bib:pages>
+    </bib:Article>
+    <bib:Article rdf:about="https://www.cambridge.org/core/product/identifier/S0031824800008667/type/journal_article">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0031-8248,%201539-767X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Bihui</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1657"/>
+        <dc:subject>Renormalization</dc:subject>
+        <dc:subject>Coarse Graining</dc:subject>
+        <dc:title>Coarse-Graining as a Route to Microscopic Physics: The Renormalization Group in Quantum Field Theory</dc:title>
+        <dcterms:abstract>The renormalization group (RG) has been characterized as merely a coarse-graining procedure that does not illuminate the microscopic content of quantum field theory (QFT) but merely gets us from that content, as given by axiomatic QFT, to macroscopic predictions. I argue that in the constructive field theory tradition, RG techniques do illuminate the microscopic dynamics of a QFT, which are not automatically given by axiomatic QFT. RG techniques in constructive field theory are also rigorous, so one cannot object to their foundational import on grounds of lack of rigor.</dcterms:abstract>
+        <dc:date>12/2015</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Coarse-Graining as a Route to Microscopic Physics</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.cambridge.org/core/product/identifier/S0031824800008667/type/journal_article</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-21 05:00:09</dcterms:dateSubmitted>
+        <dc:rights>https://www.cambridge.org/core/terms</dc:rights>
+        <bib:pages>1211-1223</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0031-8248,%201539-767X">
+        <prism:volume>82</prism:volume>
+        <dc:title>Philosophy of Science</dc:title>
+        <dc:identifier>DOI 10.1086/684085</dc:identifier>
+        <prism:number>5</prism:number>
+        <dcterms:alternative>Philos. of Sci.</dcterms:alternative>
+        <dc:identifier>ISSN 0031-8248, 1539-767X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1657">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1657/Li - 2015 - Coarse-Graining as a Route to Microscopic Physics The Renormalization Group in Quantum Field Theory.pdf"/>
+        <dc:title>Submitted Version</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://philsci-archive.pitt.edu/12268/1/nprg-preprint.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-21 05:00:15</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://arxiv.org/abs/1909.11822">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rupe</foaf:surname>
+                        <foaf:givenName>Adam</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kumar</foaf:surname>
+                        <foaf:givenName>Nalini</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Epifanov</foaf:surname>
+                        <foaf:givenName>Vladislav</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kashinath</foaf:surname>
+                        <foaf:givenName>Karthik</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pavlyk</foaf:surname>
+                        <foaf:givenName>Oleksandr</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schlimbach</foaf:surname>
+                        <foaf:givenName>Frank</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Patwary</foaf:surname>
+                        <foaf:givenName>Mostofa</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Maidanov</foaf:surname>
+                        <foaf:givenName>Sergey</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lee</foaf:surname>
+                        <foaf:givenName>Victor</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>Prabhat</foaf:surname></foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Crutchfield</foaf:surname>
+                        <foaf:givenName>James P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computational Physics (physics.comp-ph)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>Crutchfield</dc:subject>
+        <dc:subject>Emergence</dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Machine Learning (cs.LG)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>Reading list</dc:subject>
+        <dc:title>DisCo: Physics-Based Unsupervised Discovery of Coherent Structures in Spatiotemporal Systems</dc:title>
+        <dcterms:abstract>Extracting actionable insight from complex unlabeled scientific data is an open challenge and key to unlocking data-driven discovery in science. Complementary and alternative to supervised machine learning approaches, unsupervised physics-based methods based on behavior-driven theories hold great promise. Due to computational limitations, practical application on real-world domain science problems has lagged far behind theoretical development. We present our first step towards bridging this divide - DisCo - a high-performance distributed workflow for the behavior-driven local causal state theory. DisCo provides a scalable unsupervised physics-based representation learning method that decomposes spatiotemporal systems into their structurally relevant components, which are captured by the latent local causal state variables. Complex spatiotemporal systems are generally highly structured and organize around a lower-dimensional skeleton of coherent structures, and in several firsts we demonstrate the efficacy of DisCo in capturing such structures from observational and simulated scientific data. To the best of our knowledge, DisCo is also the first application software developed entirely in Python to scale to over 1000 machine nodes, providing good performance along with ensuring domain scientists' productivity. We developed scalable, performant methods optimized for Intel many-core processors that will be upstreamed to open-source Python library packages. Our capstone experiment, using newly developed DisCo workflow and libraries, performs unsupervised spacetime segmentation analysis of CAM5.1 climate simulation data, processing an unprecedented 89.5 TB in 6.6 minutes end-to-end using 1024 Intel Haswell nodes on the Cori supercomputer obtaining 91% weak-scaling and 64% strong-scaling efficiency.</dcterms:abstract>
+        <dc:date>2019</dc:date>
+        <z:shortTitle>DisCo</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Datacite)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/1909.11822</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-21 09:14:00</dcterms:dateSubmitted>
+        <dc:rights>Creative Commons Attribution 4.0 International</dc:rights>
+        <dc:description>Version Number: 1</dc:description>
+        <dc:identifier>DOI 10.48550/ARXIV.1909.11822</dc:identifier>
+    </rdf:Description>
     <z:Collection rdf:about="#collection_11">
         <dc:title>Current Interests</dc:title>
         <dcterms:hasPart rdf:resource="#collection_2"/>
         <dcterms:hasPart rdf:resource="#collection_3"/>
+        <dcterms:hasPart rdf:resource="#collection_70"/>
+        <dcterms:hasPart rdf:resource="#collection_71"/>
+        <dcterms:hasPart rdf:resource="#item_1"/>
+        <dcterms:hasPart rdf:resource="#item_2"/>
+        <dcterms:hasPart rdf:resource="#item_5"/>
+        <dcterms:hasPart rdf:resource="https://arxiv.org/pdf/2101.11686"/>
+        <dcterms:hasPart rdf:resource="#item_7"/>
+        <dcterms:hasPart rdf:resource="#item_8"/>
+        <dcterms:hasPart rdf:resource="#item_9"/>
+        <dcterms:hasPart rdf:resource="#item_10"/>
+        <dcterms:hasPart rdf:resource="#item_11"/>
+        <dcterms:hasPart rdf:resource="#item_12"/>
+        <dcterms:hasPart rdf:resource="#item_13"/>
+        <dcterms:hasPart rdf:resource="#item_14"/>
+        <dcterms:hasPart rdf:resource="#item_16"/>
+        <dcterms:hasPart rdf:resource="#item_17"/>
+        <dcterms:hasPart rdf:resource="#item_18"/>
+        <dcterms:hasPart rdf:resource="#item_19"/>
+        <dcterms:hasPart rdf:resource="#item_20"/>
+        <dcterms:hasPart rdf:resource="#item_21"/>
+        <dcterms:hasPart rdf:resource="#item_22"/>
+        <dcterms:hasPart rdf:resource="#item_23"/>
+        <dcterms:hasPart rdf:resource="#item_24"/>
+        <dcterms:hasPart rdf:resource="#item_25"/>
+        <dcterms:hasPart rdf:resource="#item_26"/>
+        <dcterms:hasPart rdf:resource="#item_27"/>
+        <dcterms:hasPart rdf:resource="#item_28"/>
+        <dcterms:hasPart rdf:resource="#item_29"/>
+        <dcterms:hasPart rdf:resource="#item_46"/>
+        <dcterms:hasPart rdf:resource="#item_47"/>
+        <dcterms:hasPart rdf:resource="https://arxiv.org/abs/1701.06309"/>
+        <dcterms:hasPart rdf:resource="#item_49"/>
+        <dcterms:hasPart rdf:resource="#item_50"/>
+        <dcterms:hasPart rdf:resource="#item_51"/>
+        <dcterms:hasPart rdf:resource="#item_52"/>
+        <dcterms:hasPart rdf:resource="#item_53"/>
+        <dcterms:hasPart rdf:resource="https://arxiv.org/pdf/1710.06832"/>
+        <dcterms:hasPart rdf:resource="#item_55"/>
+        <dcterms:hasPart rdf:resource="#item_56"/>
+        <dcterms:hasPart rdf:resource="#item_57"/>
+        <dcterms:hasPart rdf:resource="#item_58"/>
+        <dcterms:hasPart rdf:resource="#item_59"/>
+        <dcterms:hasPart rdf:resource="#item_60"/>
+        <dcterms:hasPart rdf:resource="#item_61"/>
+        <dcterms:hasPart rdf:resource="#item_62"/>
+        <dcterms:hasPart rdf:resource="#item_63"/>
+        <dcterms:hasPart rdf:resource="#item_64"/>
+        <dcterms:hasPart rdf:resource="#item_65"/>
+        <dcterms:hasPart rdf:resource="#item_66"/>
+        <dcterms:hasPart rdf:resource="#item_67"/>
+        <dcterms:hasPart rdf:resource="#item_68"/>
+        <dcterms:hasPart rdf:resource="https://arxiv.org/abs/1712.01826"/>
+        <dcterms:hasPart rdf:resource="#item_70"/>
+        <dcterms:hasPart rdf:resource="#item_309"/>
+        <dcterms:hasPart rdf:resource="#item_310"/>
+        <dcterms:hasPart rdf:resource="https://arxiv.org/pdf/2106.14280"/>
+        <dcterms:hasPart rdf:resource="#item_312"/>
+        <dcterms:hasPart rdf:resource="#item_314"/>
+        <dcterms:hasPart rdf:resource="#item_315"/>
+        <dcterms:hasPart rdf:resource="#item_316"/>
+        <dcterms:hasPart rdf:resource="https://arxiv.org/abs/2204.06742"/>
+        <dcterms:hasPart rdf:resource="#item_318"/>
+        <dcterms:hasPart rdf:resource="#item_320"/>
+        <dcterms:hasPart rdf:resource="#item_321"/>
+        <dcterms:hasPart rdf:resource="#item_322"/>
+        <dcterms:hasPart rdf:resource="#item_323"/>
+        <dcterms:hasPart rdf:resource="#item_324"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-3-319-10758-5%20978-3-319-10759-2"/>
+        <dcterms:hasPart rdf:resource="https://onlinelibrary.wiley.com/doi/10.1049/qtc2.12050"/>
+        <dcterms:hasPart rdf:resource="https://linkinghub.elsevier.com/retrieve/pii/S0167278923002798"/>
+        <dcterms:hasPart rdf:resource="https://projecteuclid.org/journals/hokkaido-mathematical-journal/volume-31/issue-1/A-generalization-of-Chaitins-halting-probability-Omega-and-halting-self/10.14492/hokmj/1350911778.full"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/2209.14571"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-0-444-51862-0"/>
+        <dcterms:hasPart rdf:resource="https://bridges.monash.edu/articles/report/Potential_Properties_of_Turing_Machines/20365185/1"/>
+        <dcterms:hasPart rdf:resource="https://royalsocietypublishing.org/doi/10.1098/rsta.2011.0319"/>
+        <dcterms:hasPart rdf:resource="https://math.ucr.edu/home/baez/thermo/thermo.pdf"/>
+        <dcterms:hasPart rdf:resource="https://math.ucr.edu/home/baez/thermo/Jarzynski_SFI_Tutorial_Nonequilibrium_Statistical_Mechanics.pdf"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-3-0348-0358-8%20978-3-0348-0359-5"/>
+        <dcterms:hasPart rdf:resource="https://arxiv.org/abs/1010.2067"/>
+        <dcterms:hasPart rdf:resource="https://johncarlosbaez.wordpress.com/2010/10/12/algorithmic-thermodynamics/"/>
+        <dcterms:hasPart rdf:resource="https://johncarlosbaez.wordpress.com/2011/01/06/algorithmic-thermodynamics-part-2/"/>
+        <dcterms:hasPart rdf:resource="#item_424"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-0-7503-2640-7%20978-0-7503-2638-4"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-3-662-04978-5"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-0-486-66521-4"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-0-387-23795-4"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:9789811507397%209789811507380"/>
+        <dcterms:hasPart rdf:resource="https://www.cambridge.org/core/product/identifier/S096012951100051X/type/journal_article"/>
+        <dcterms:hasPart rdf:resource="https://tadaki.org/"/>
+        <dcterms:hasPart rdf:resource="https://tadaki.org/alc2013.pdf"/>
+        <dcterms:hasPart rdf:resource="https://www.journals.uchicago.edu/doi/10.1093/bjps/axx046"/>
+        <dcterms:hasPart rdf:resource="https://link.aps.org/doi/10.1103/PhysRevResearch.2.033312"/>
     </z:Collection>
     <z:Collection rdf:about="#collection_2">
         <dc:title>Information theory</dc:title>
@@ -14645,6 +15079,15 @@ Version Number: 2</dc:description>
         <dcterms:hasPart rdf:resource="https://johncarlosbaez.wordpress.com/2011/01/06/algorithmic-thermodynamics-part-2/"/>
         <dcterms:hasPart rdf:resource="#item_424"/>
         <dcterms:hasPart rdf:resource="urn:isbn:978-0-7503-2640-7%20978-0-7503-2638-4"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-3-662-04978-5"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-0-486-66521-4"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-0-387-23795-4"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:9789811507397%209789811507380"/>
+        <dcterms:hasPart rdf:resource="https://www.cambridge.org/core/product/identifier/S096012951100051X/type/journal_article"/>
+        <dcterms:hasPart rdf:resource="https://tadaki.org/"/>
+        <dcterms:hasPart rdf:resource="https://tadaki.org/alc2013.pdf"/>
+        <dcterms:hasPart rdf:resource="https://www.journals.uchicago.edu/doi/10.1093/bjps/axx046"/>
+        <dcterms:hasPart rdf:resource="https://link.aps.org/doi/10.1103/PhysRevResearch.2.033312"/>
     </z:Collection>
     <z:Collection rdf:about="#collection_7">
         <dc:title>Classical information theory</dc:title>
@@ -14680,10 +15123,16 @@ Version Number: 2</dc:description>
         <dcterms:hasPart rdf:resource="https://johncarlosbaez.wordpress.com/2011/01/06/algorithmic-thermodynamics-part-2/"/>
         <dcterms:hasPart rdf:resource="#item_424"/>
         <dcterms:hasPart rdf:resource="urn:isbn:978-0-7503-2640-7%20978-0-7503-2638-4"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-3-662-04978-5"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-0-486-66521-4"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-0-387-23795-4"/>
         <dcterms:hasPart rdf:resource="urn:isbn:9789811507397%209789811507380"/>
         <dcterms:hasPart rdf:resource="https://www.cambridge.org/core/product/identifier/S096012951100051X/type/journal_article"/>
         <dcterms:hasPart rdf:resource="https://tadaki.org/"/>
         <dcterms:hasPart rdf:resource="https://tadaki.org/alc2013.pdf"/>
+        <dcterms:hasPart rdf:resource="https://www.journals.uchicago.edu/doi/10.1093/bjps/axx046"/>
+        <dcterms:hasPart rdf:resource="https://link.aps.org/doi/10.1103/PhysRevResearch.2.033312"/>
+        <dcterms:hasPart rdf:resource="https://royalsocietypublishing.org/doi/10.1098/rsta.2016.0338"/>
     </z:Collection>
     <z:Collection rdf:about="#collection_19">
         <dc:title>Basics</dc:title>
@@ -14757,6 +15206,19 @@ Version Number: 2</dc:description>
         <dcterms:hasPart rdf:resource="#item_10"/>
         <dcterms:hasPart rdf:resource="https://math.ucr.edu/home/baez/thermo/Jarzynski_SFI_Tutorial_Nonequilibrium_Statistical_Mechanics.pdf"/>
         <dcterms:hasPart rdf:resource="urn:isbn:978-3-0348-0358-8%20978-3-0348-0359-5"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_70">
+        <dc:title>Project with Csaba</dc:title>
+        <dcterms:hasPart rdf:resource="https://www.cambridge.org/core/product/identifier/S0031824800008667/type/journal_article"/>
+        <dcterms:hasPart rdf:resource="https://arxiv.org/abs/1909.11822"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_71">
+        <dc:title>Working with David</dc:title>
+        <dcterms:hasPart rdf:resource="#collection_72"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_72">
+        <dc:title>C. S. Wallace</dc:title>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-0-387-23795-4"/>
     </z:Collection>
     <z:Collection rdf:about="#collection_9">
         <dc:title>My Works</dc:title>
