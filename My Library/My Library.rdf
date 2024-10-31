@@ -3253,8 +3253,8 @@ MAG ID: 2794316594</dc:description>
         <dc:subject>Crutchfield</dc:subject>
         <dc:subject>Computational mechanics</dc:subject>
         <dc:subject>Emergence</dc:subject>
-        <dc:subject>Reading list</dc:subject>
         <dc:subject>Non-Equilibrium Thermodynamics</dc:subject>
+        <dc:subject>Have Read</dc:subject>
         <dc:title>On Principles of Emergent Organization</dc:title>
         <dcterms:abstract>After more than a century of concerted effort, physics still lacks basic principles of spontaneous self-organization. To appreciate why, we first state the problem, outline historical approaches, and survey the present state of the physics of self-organization. This frames the particular challenges arising from mathematical intractability and the resulting need for computational approaches, as well as those arising from a chronic failure to define structure. Then, an overview of two modern mathematical formulations of organization—intrinsic computation and evolution operators—lays out a way to overcome these challenges. Together, the vantage point they afford shows how to account for the emergence of structured states via a statistical mechanics of systems arbitrarily far from equilibrium. The result is a constructive path forward to principles of organization that builds on mathematical identification of structure.</dcterms:abstract>
         <dc:description>DOI: 10.48550/arxiv.2311.13749</dc:description>
@@ -14311,6 +14311,8 @@ Version Number: 2</dc:description>
             </rdf:Seq>
         </bib:authors>
         <link:link rdf:resource="#item_1594"/>
+        <link:link rdf:resource="#item_1818"/>
+        <link:link rdf:resource="#item_1817"/>
         <dc:subject>Basics</dc:subject>
         <dc:title>Information and Randomness: an Algorithmic Perspective</dc:title>
         <dcterms:abstract>The book presents in a mathematical clear way the fundamentals of algorithmic information theory and a few selected applications. This 2nd edition presents new and important results obtained in recent years: the characterization of computable enumerable random reals, the construction of an Omega Number for which ZFC cannot determine any digits, and the first successful attempt to compute the exact values of 64 bits of a specific Omega Number. Finally, the book contains a discussion of some interesting philosophical questions related to randomness and mathematical knowledge. &quot;Professor Calude has produced a first-rate exposition of up-to-date work in information and randomness.&quot; D.S. Bridges, Canterbury University, co-author, with Errett Bishop, of Constructive Analysis; &quot;The second edition of this classic work is highly recommended to anyone interested in algorithmic information and randomness.&quot; G.J. Chaitin, IBM Research Division, New York, author of Conversations with a Mathematician; &quot;This book is a must for a comprehensive introduction to algorithmic information theory and for anyone interested in its applications in the natural sciences.&quot; K. Svozil, Technical University of Vienna, author of Randomness &amp; Undecidability in Physics</dcterms:abstract>
@@ -14327,6 +14329,18 @@ Version Number: 2</dc:description>
         <rdf:resource rdf:resource="files/1594/Information and Randomness_ An Algorithmic Perspective.djvu.djvu"/>
         <dc:title>Information and Randomness_ An Algorithmic Perspective.djvu</dc:title>
         <link:type>application/octet-stream</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1818">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1818/Information and Randomness_ An Algorithmic Perspective.djvu.ocr.pdf"/>
+        <dc:title>Information and Randomness_ An Algorithmic Perspective.djvu.ocr</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1817">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1817/Information and Randomness_ An Algorithmic Perspective.djvu.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
     </z:Attachment>
     <bib:Book rdf:about="urn:isbn:978-0-486-66521-4">
         <z:itemType>book</z:itemType>
@@ -14395,8 +14409,8 @@ Version Number: 2</dc:description>
             </rdf:Seq>
         </bib:authors>
         <link:link rdf:resource="#item_1601"/>
+        <link:link rdf:resource="#item_1816"/>
         <link:link rdf:resource="#item_1666"/>
-        <link:link rdf:resource="#item_1600"/>
         <dc:subject>Reading list</dc:subject>
         <dc:title>Statistical and inductive inference by minimum message length</dc:title>
         <dc:date>2005</dc:date>
@@ -14411,23 +14425,16 @@ Version Number: 2</dc:description>
         <dc:title>(Information science and statistics) C.S. Wallace - Statistical and Inductive Inference by Minimum Message Length-Springer (2005)</dc:title>
         <link:type>application/octet-stream</link:type>
     </z:Attachment>
+    <z:Attachment rdf:about="#item_1816">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1816/C. S. Wallace Information.ocr.pdf"/>
+        <dc:title>C. S. Wallace Information.ocr</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
     <z:Attachment rdf:about="#item_1666">
         <z:itemType>attachment</z:itemType>
         <rdf:resource rdf:resource="files/1666/Chapter 8 - Feathered arrow of time.pdf"/>
         <dc:title>Chapter 8 - Feathered arrow of time</dc:title>
-        <link:type>application/pdf</link:type>
-    </z:Attachment>
-    <z:Attachment rdf:about="#item_1600">
-        <z:itemType>attachment</z:itemType>
-        <rdf:resource rdf:resource="files/1600/Wallace - 2005 - Statistical and inductive inference by minimum message length.pdf"/>
-        <dc:title>Table of Contents PDF</dc:title>
-        <dc:identifier>
-            <dcterms:URI>
-                <rdf:value>https://www.gbv.de/dms/mpib-toc/470935278.pdf</rdf:value>
-            </dcterms:URI>
-        </dc:identifier>
-        <dcterms:dateSubmitted>2024-10-08 11:33:55</dcterms:dateSubmitted>
-        <z:linkMode>1</z:linkMode>
         <link:type>application/pdf</link:type>
     </z:Attachment>
     <bib:Book rdf:about="urn:isbn:9789811507397%209789811507380">
@@ -14726,14 +14733,12 @@ Version Number: 2</dc:description>
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
-        <dc:subject>
-            <z:AutomaticTag>
-               <rdf:value>⛔ No INSPIRE recid found</rdf:value>
-            </z:AutomaticTag>
-        </dc:subject>
+        <link:link rdf:resource="#item_1843"/>
+        <dc:subject>Coarse Graining</dc:subject>
+        <dc:subject>Computational interpretation of physical systems</dc:subject>
         <dc:subject>Computational mechanics</dc:subject>
         <dc:subject>Emergence</dc:subject>
-        <dc:subject>Computational interpretation of physical systems</dc:subject>
+        <dc:subject>Reading list</dc:subject>
         <dc:title>Coarse-graining as a downward causation mechanism</dc:title>
         <dcterms:abstract>Downward causation is the controversial idea that ‘higher’ levels of organization can causally influence behaviour at ‘lower’ levels of organization. Here I propose that we can gain traction on downward causation by being operational and examining how adaptive systems identify regularities in evolutionary or learning time and use these regularities to guide behaviour. I suggest that in many adaptive systems components collectively compute their macroscopic worlds through coarse-graining. I further suggest we move from simple feedback to downward causation when components tune behaviour in response to estimates of collectively computed macroscopic properties. I introduce a weak and strong notion of downward causation and discuss the role the strong form plays in the origins of new organizational levels. I illustrate these points with examples from the study of biological and social systems and deep neural networks.
             This article is part of the themed issue ‘Reconceptualizing the origins of life’.</dcterms:abstract>
@@ -14748,6 +14753,19 @@ Version Number: 2</dc:description>
         <dcterms:dateSubmitted>2024-10-21 02:55:51</dcterms:dateSubmitted>
         <bib:pages>20160338</bib:pages>
     </bib:Article>
+    <z:Attachment rdf:about="#item_1843">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1843/Flack - 2017 - Coarse-graining as a downward causation mechanism.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://royalsocietypublishing.org/doi/pdf/10.1098/rsta.2016.0338</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-31 11:24:53</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
     <bib:Article rdf:about="https://www.cambridge.org/core/product/identifier/S0031824800008667/type/journal_article">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf rdf:resource="urn:issn:0031-8248,%201539-767X"/>
@@ -14872,19 +14890,19 @@ Version Number: 2</dc:description>
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <dc:subject>Crutchfield</dc:subject>
+        <dc:subject>Emergence</dc:subject>
+        <dc:subject>Reading list</dc:subject>
         <dc:subject>
             <z:AutomaticTag>
                <rdf:value>Computational Physics (physics.comp-ph)</rdf:value>
             </z:AutomaticTag>
         </dc:subject>
-        <dc:subject>Crutchfield</dc:subject>
-        <dc:subject>Emergence</dc:subject>
         <dc:subject>
             <z:AutomaticTag>
                <rdf:value>Machine Learning (cs.LG)</rdf:value>
             </z:AutomaticTag>
         </dc:subject>
-        <dc:subject>Reading list</dc:subject>
         <dc:title>DisCo: Physics-Based Unsupervised Discovery of Coherent Structures in Spatiotemporal Systems</dc:title>
         <dcterms:abstract>Extracting actionable insight from complex unlabeled scientific data is an open challenge and key to unlocking data-driven discovery in science. Complementary and alternative to supervised machine learning approaches, unsupervised physics-based methods based on behavior-driven theories hold great promise. Due to computational limitations, practical application on real-world domain science problems has lagged far behind theoretical development. We present our first step towards bridging this divide - DisCo - a high-performance distributed workflow for the behavior-driven local causal state theory. DisCo provides a scalable unsupervised physics-based representation learning method that decomposes spatiotemporal systems into their structurally relevant components, which are captured by the latent local causal state variables. Complex spatiotemporal systems are generally highly structured and organize around a lower-dimensional skeleton of coherent structures, and in several firsts we demonstrate the efficacy of DisCo in capturing such structures from observational and simulated scientific data. To the best of our knowledge, DisCo is also the first application software developed entirely in Python to scale to over 1000 machine nodes, providing good performance along with ensuring domain scientists' productivity. We developed scalable, performant methods optimized for Intel many-core processors that will be upstreamed to open-source Python library packages. Our capstone experiment, using newly developed DisCo workflow and libraries, performs unsupervised spacetime segmentation analysis of CAM5.1 climate simulation data, processing an unprecedented 89.5 TB in 6.6 minutes end-to-end using 1024 Intel Haswell nodes on the Cori supercomputer obtaining 91% weak-scaling and 64% strong-scaling efficiency.</dcterms:abstract>
         <dc:date>2019</dc:date>
@@ -14900,6 +14918,2688 @@ Version Number: 2</dc:description>
         <dc:description>Version Number: 1</dc:description>
         <dc:identifier>DOI 10.48550/ARXIV.1909.11822</dc:identifier>
     </rdf:Description>
+    <bib:Article rdf:about="https://iopscience.iop.org/article/10.1088/1751-8121/ad6f7e">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1751-8113,%201751-8121"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bianconi</foaf:surname>
+                        <foaf:givenName>Ginestra</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Quantum entropy couples matter with geometry</dc:title>
+        <dcterms:abstract>Abstract
+            We propose a theory for coupling matter fields with discrete geometry on higher-order networks, i.e. cell complexes. The key idea of the approach is to associate to a higher-order network the quantum entropy of its metric. Specifically we propose an action having two contributions. The first contribution is proportional to the logarithm of the volume associated to the higher-order network by the metric. In the vacuum this contribution determines the entropy of the geometry. The second contribution is the quantum relative entropy between the metric of the higher-order network and the metric induced by the matter and gauge fields. The induced metric is defined in terms of the topological spinors and the discrete Dirac operators. The topological spinors, defined on nodes, edges and higher-dimensional cells, encode for the matter fields. The discrete Dirac operators act on topological spinors, and depend on the metric of the higher-order network as well as on the gauge fields via a discrete version of the minimal substitution. We derive the coupled dynamical equations for the metric, the matter and the gauge fields, providing an information theory principle to obtain the field theory equations in discrete curved space.</dcterms:abstract>
+        <dc:date>2024-09-27</dc:date>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://iopscience.iop.org/article/10.1088/1751-8121/ad6f7e</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-22 23:06:34</dcterms:dateSubmitted>
+        <bib:pages>365002</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1751-8113,%201751-8121">
+        <prism:volume>57</prism:volume>
+        <dc:title>Journal of Physics A: Mathematical and Theoretical</dc:title>
+        <dc:identifier>DOI 10.1088/1751-8121/ad6f7e</dc:identifier>
+        <prism:number>36</prism:number>
+        <dcterms:alternative>J. Phys. A: Math. Theor.</dcterms:alternative>
+        <dc:identifier>ISSN 1751-8113, 1751-8121</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="https://epubs.siam.org/doi/10.1137/20M1355896">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0036-1445,%201095-7200"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Torres</foaf:surname>
+                        <foaf:givenName>Leo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Blevins</foaf:surname>
+                        <foaf:givenName>Ann S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bassett</foaf:surname>
+                        <foaf:givenName>Danielle</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Eliassi-Rad</foaf:surname>
+                        <foaf:givenName>Tina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1842"/>
+        <dc:subject>Computational mechanics</dc:subject>
+        <dc:subject>Computational Physics (physics.comp-ph)</dc:subject>
+        <dc:title>The Why, How, and When of Representations for Complex Systems</dc:title>
+        <dc:date>01/2021</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://epubs.siam.org/doi/10.1137/20M1355896</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-22 15:35:10</dcterms:dateSubmitted>
+        <bib:pages>435-485</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0036-1445,%201095-7200">
+        <prism:volume>63</prism:volume>
+        <dc:title>SIAM Review</dc:title>
+        <dc:identifier>DOI 10.1137/20M1355896</dc:identifier>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>SIAM Rev.</dcterms:alternative>
+        <dc:identifier>ISSN 0036-1445, 1095-7200</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1842">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1842/Torres et al. - 2021 - The Why, How, and When of Representations for Complex Systems.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://epubs.siam.org/doi/pdf/10.1137/20M1355896</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-31 11:24:33</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://pubs.aip.org/cha/article/28/7/075312/386424/Local-causal-states-and-discrete-coherent">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1054-1500,%201089-7682"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rupe</foaf:surname>
+                        <foaf:givenName>Adam</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Crutchfield</foaf:surname>
+                        <foaf:givenName>James P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1698"/>
+        <dc:subject>Crutchfield</dc:subject>
+        <dc:subject>Emergence</dc:subject>
+        <dc:title>Local causal states and discrete coherent structures</dc:title>
+        <dcterms:abstract>Coherent structures form spontaneously in nonlinear spatiotemporal systems and are found at all spatial scales in natural phenomena from laboratory hydrodynamic flows and chemical reactions to ocean, atmosphere, and planetary climate dynamics. Phenomenologically, they appear as key components that organize the macroscopic behaviors in such systems. Despite a century of effort, they have eluded rigorous analysis and empirical prediction, with progress being made only recently. As a step in this, we present a formal theory of coherent structures in fully discrete dynamical field theories. It builds on the notion of structure introduced by computational mechanics, generalizing it to a local spatiotemporal setting. The analysis’ main tool employs the local causal states, which are used to uncover a system’s hidden spatiotemporal symmetries and which identify coherent structures as spatially localized deviations from those symmetries. The approach is behavior-driven in the sense that it does not rely on directly analyzing spatiotemporal equations of motion, rather it considers only the spatiotemporal fields a system generates. As such, it offers an unsupervised approach to discover and describe coherent structures. We illustrate the approach by analyzing coherent structures generated by elementary cellular automata, comparing the results with an earlier, dynamic-invariant-set approach that decomposes fields into domains, particles, and particle interactions.</dcterms:abstract>
+        <dc:date>2018-07-01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pubs.aip.org/cha/article/28/7/075312/386424/Local-causal-states-and-discrete-coherent</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-23 05:03:20</dcterms:dateSubmitted>
+        <bib:pages>075312</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1054-1500,%201089-7682">
+        <prism:volume>28</prism:volume>
+        <dc:title>Chaos: An Interdisciplinary Journal of Nonlinear Science</dc:title>
+        <dc:identifier>DOI 10.1063/1.5021130</dc:identifier>
+        <prism:number>7</prism:number>
+        <dc:identifier>ISSN 1054-1500, 1089-7682</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1698">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1698/Rupe and Crutchfield - 2018 - Local causal states and discrete coherent structures.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pubs.aip.org/aip/cha/article-pdf/doi/10.1063/1.5021130/13283690/075312_1_online.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-23 05:03:40</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://link.aps.org/doi/10.1103/PhysRevE.89.042119">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1539-3755,%201550-2376"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Strelioff</foaf:surname>
+                        <foaf:givenName>Christopher C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Crutchfield</foaf:surname>
+                        <foaf:givenName>James P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1700"/>
+        <dc:title>Bayesian structural inference for hidden processes</dc:title>
+        <dc:date>2014-4-10</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.aps.org/doi/10.1103/PhysRevE.89.042119</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-23 05:07:23</dcterms:dateSubmitted>
+        <dc:rights>http://link.aps.org/licenses/aps-default-license</dc:rights>
+        <bib:pages>042119</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1539-3755,%201550-2376">
+        <prism:volume>89</prism:volume>
+        <dc:title>Physical Review E</dc:title>
+        <dc:identifier>DOI 10.1103/PhysRevE.89.042119</dc:identifier>
+        <prism:number>4</prism:number>
+        <dcterms:alternative>Phys. Rev. E</dcterms:alternative>
+        <dc:identifier>ISSN 1539-3755, 1550-2376</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1700">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1700/Strelioff and Crutchfield - 2014 - Bayesian structural inference for hidden processes.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://escholarship.org/content/qt75v2d8bx/qt75v2d8bx.pdf?t=o1grmk</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-23 05:07:32</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://link.aps.org/doi/10.1103/PhysRevE.98.012110">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2470-0045,%202470-0053"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>General</foaf:surname>
+                        <foaf:givenName>Ignacio J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>Maximum Caliber</dc:subject>
+        <dc:subject>Non-Equilibrium Thermodynamics</dc:subject>
+        <dc:title>Principle of maximum caliber and quantum physics</dc:title>
+        <dc:date>2018-7-11</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.aps.org/doi/10.1103/PhysRevE.98.012110</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-23 21:22:21</dcterms:dateSubmitted>
+        <bib:pages>012110</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2470-0045,%202470-0053">
+        <prism:volume>98</prism:volume>
+        <dc:title>Physical Review E</dc:title>
+        <dc:identifier>DOI 10.1103/PhysRevE.98.012110</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Phys. Rev. E</dcterms:alternative>
+        <dc:identifier>ISSN 2470-0045, 2470-0053</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="https://pubs.aip.org/jcp/article/133/3/034119/905298/Maximum-caliber-inference-of-nonequilibrium">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0021-9606,%201089-7690"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Otten</foaf:surname>
+                        <foaf:givenName>Moritz</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stock</foaf:surname>
+                        <foaf:givenName>Gerhard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>Csaba</dc:subject>
+        <dc:subject>Maximum Caliber</dc:subject>
+        <dc:title>Maximum caliber inference of nonequilibrium processes</dc:title>
+        <dcterms:abstract>Thirty years ago, Jaynes suggested a general theoretical approach to nonequilibrium statistical mechanics, called maximum caliber (MaxCal) [Annu. Rev. Phys. Chem. 31, 579 (1980)]. MaxCal is a variational principle for dynamics in the same spirit that maximum entropy is a variational principle for equilibrium statistical mechanics. Motivated by the success of maximum entropy inference methods for equilibrium problems, in this work the MaxCal formulation is applied to the inference of nonequilibrium processes. That is, given some time-dependent observables of a dynamical process, one constructs a model that reproduces these input data and moreover, predicts the underlying dynamics of the system. For example, the observables could be some time-resolved measurements of the folding of a protein, which are described by a few-state model of the free energy landscape of the system. MaxCal then calculates the probabilities of an ensemble of trajectories such that on average the data are reproduced. From this probability distribution, any dynamical quantity of the system can be calculated, including population probabilities, fluxes, or waiting time distributions. After briefly reviewing the formalism, the practical numerical implementation of MaxCal in the case of an inference problem is discussed. Adopting various few-state models of increasing complexity, it is demonstrated that the MaxCal principle indeed works as a practical method of inference: The scheme is fairly robust and yields correct results as long as the input data are sufficient. As the method is unbiased and general, it can deal with any kind of time dependency such as oscillatory transients and multitime decays.</dcterms:abstract>
+        <dc:date>2010-07-21</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pubs.aip.org/jcp/article/133/3/034119/905298/Maximum-caliber-inference-of-nonequilibrium</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-23 21:18:04</dcterms:dateSubmitted>
+        <bib:pages>034119</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0021-9606,%201089-7690">
+        <prism:volume>133</prism:volume>
+        <dc:title>The Journal of Chemical Physics</dc:title>
+        <dc:identifier>DOI 10.1063/1.3455333</dc:identifier>
+        <prism:number>3</prism:number>
+        <dc:identifier>ISSN 0021-9606, 1089-7690</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="https://link.aps.org/doi/10.1103/RevModPhys.85.1115">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0034-6861,%201539-0756"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pressé</foaf:surname>
+                        <foaf:givenName>Steve</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ghosh</foaf:surname>
+                        <foaf:givenName>Kingshuk</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lee</foaf:surname>
+                        <foaf:givenName>Julian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dill</foaf:surname>
+                        <foaf:givenName>Ken A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1718"/>
+        <dc:subject>Csaba</dc:subject>
+        <dc:subject>Maximum Caliber</dc:subject>
+        <dc:subject>Reading list</dc:subject>
+        <dc:title>Principles of maximum entropy and maximum caliber in statistical physics</dc:title>
+        <dc:date>2013-7-16</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.aps.org/doi/10.1103/RevModPhys.85.1115</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-24 00:54:28</dcterms:dateSubmitted>
+        <dc:rights>http://link.aps.org/licenses/aps-default-license</dc:rights>
+        <bib:pages>1115-1141</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0034-6861,%201539-0756">
+        <prism:volume>85</prism:volume>
+        <dc:title>Reviews of Modern Physics</dc:title>
+        <dc:identifier>DOI 10.1103/RevModPhys.85.1115</dc:identifier>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>Rev. Mod. Phys.</dcterms:alternative>
+        <dc:identifier>ISSN 0034-6861, 1539-0756</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1718">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1718/Pressé et al. - 2013 - Principles of maximum entropy and maximum caliber in statistical physics.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/1809.04994">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2470-0010,%202470-0029"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hashino</foaf:surname>
+                        <foaf:givenName>Katsuya</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jinno</foaf:surname>
+                        <foaf:givenName>Ryusuke</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kakizaki</foaf:surname>
+                        <foaf:givenName>Mitsuru</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kanemura</foaf:surname>
+                        <foaf:givenName>Shinya</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Takahashi</foaf:surname>
+                        <foaf:givenName>Tomo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Takimoto</foaf:surname>
+                        <foaf:givenName>Masahiro</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1723"/>
+        <link:link rdf:resource="#item_1719"/>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Astrophysics - Cosmology and Nongalactic Astrophysics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>High Energy Physics - Phenomenology</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Fingerprinting models of first-order phase transitions by the synergy between collider and gravitational-wave experiments</dc:title>
+        <dcterms:abstract>We investigate the sensitivity of future space-based interferometers such as LISA and DECIGO to the parameters of new particle physics models which drive a ﬁrstorder phase transition in the early Universe. We ﬁrst perform a Fisher matrix analysis on the quantities characterizing the gravitational wave spectrum resulting from the phase transition, such as the peak frequency and amplitude. We next perform a Fisher analysis for the quantities which determine the properties of the phase transition, such as the latent heat and the time dependence of the bubble nucleation rate. Since these quantities are determined by the model parameters of the new physics, we can estimate the expected sensitivities to such parameters. We illustrate this point by taking three new physics models for example: (1) models with additional isospin singlet scalars (2) a model with an extra real Higgs singlet, and (3) a classically conformal B − L model. We ﬁnd that future gravitational wave observations play complementary roles to future collider experiments in pinning down the parameters of new physics models driving a ﬁrst-order phase transition.</dcterms:abstract>
+        <dc:date>2019-4-12</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1809.04994</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-24 06:54:00</dcterms:dateSubmitted>
+        <dc:description>arXiv:1809.04994 [hep-ph]</dc:description>
+        <bib:pages>075011</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2470-0010,%202470-0029">
+        <prism:volume>99</prism:volume>
+        <dc:title>Physical Review D</dc:title>
+        <dc:identifier>DOI 10.1103/PhysRevD.99.075011</dc:identifier>
+        <prism:number>7</prism:number>
+        <dcterms:alternative>Phys. Rev. D</dcterms:alternative>
+        <dc:identifier>ISSN 2470-0010, 2470-0029</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_1723">
+       <rdf:value>Comment: 64 pages, 35 figures</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_1719">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1719/Hashino et al. - 2019 - Fingerprinting models of first-order phase transitions by the synergy between collider and gravitati.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/2106.05984">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1475-7516"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gowling</foaf:surname>
+                        <foaf:givenName>Chloe</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hindmarsh</foaf:surname>
+                        <foaf:givenName>Mark</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1725"/>
+        <link:link rdf:resource="#item_1721"/>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Astrophysics - Cosmology and Nongalactic Astrophysics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>High Energy Physics - Phenomenology</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>General Relativity and Quantum Cosmology</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Observational prospects for phase transitions at LISA: Fisher matrix analysis</dc:title>
+        <dcterms:abstract>A first order phase transition at the electroweak scale would lead to the production of gravitational waves that may be observable at upcoming space-based gravitational wave (GW) detectors such as LISA (Laser Interferometer Space Antenna). As the Standard Model has no phase transition, LISA can be used to search for new physics by searching for a stochastic gravitational wave background. In this work we investigate LISA's sensitivity to the thermodynamic parameters encoded in the stochastic background produced by a phase transition, using the sound shell model to characterise the gravitational wave power spectrum, and the Fisher matrix to estimate uncertainties. We explore a parameter space with transition strengths $\alpha &lt; 0.5$ and phase boundary speeds $0.4 &lt; v_\text{w} &lt; 0.9$, for transitions nucleating at $T_{\text{N}} = 100$ GeV, with mean bubble spacings $0.1$ and $0.01$ of the Hubble length, and sound speed $c/\sqrt{3}$. We show that the power spectrum in the sound shell model can be well approximated by a four-parameter double broken power law, and find that the peak power and frequency can be measured to approximately 10% accuracy for signal-to-noise ratios (SNRs) above 20. Determinations of the underlying thermodynamic parameters are complicated by degeneracies, but in all cases the phase boundary speed will be the best constrained parameter. Turning to the principal components of the Fisher matrix, a signal-to-noise ratio above 20 produces a relative uncertainty less than 3% in the two highest-order principal components, indicating good prospects for combinations of parameters. The highest-order principal component is dominated by the wall speed. These estimates of parameter sensitivity provide a preliminary accuracy target for theoretical calculations of thermodynamic parameters.</dcterms:abstract>
+        <dc:date>2021-10-01</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Observational prospects for phase transitions at LISA</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2106.05984</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-24 06:54:05</dcterms:dateSubmitted>
+        <dc:description>arXiv:2106.05984 [astro-ph]</dc:description>
+        <bib:pages>039</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1475-7516">
+        <prism:volume>2021</prism:volume>
+        <dc:title>Journal of Cosmology and Astroparticle Physics</dc:title>
+        <dc:identifier>DOI 10.1088/1475-7516/2021/10/039</dc:identifier>
+        <prism:number>10</prism:number>
+        <dcterms:alternative>J. Cosmol. Astropart. Phys.</dcterms:alternative>
+        <dc:identifier>ISSN 1475-7516</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_1725">
+       <rdf:value>Comment: 37 pages, 11 figures</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_1721">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1721/Gowling and Hindmarsh - 2021 - Observational prospects for phase transitions at LISA Fisher matrix analysis.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/2203.13842">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1029-8479"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brzeminski</foaf:surname>
+                        <foaf:givenName>Dawid</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hook</foaf:surname>
+                        <foaf:givenName>Anson</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marques-Tavares</foaf:surname>
+                        <foaf:givenName>Gustavo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1727"/>
+        <link:link rdf:resource="#item_1720"/>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Astrophysics - Cosmology and Nongalactic Astrophysics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>High Energy Physics - Phenomenology</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>General Relativity and Quantum Cosmology</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Precision Early Universe Cosmology from Stochastic Gravitational Waves</dc:title>
+        <dcterms:abstract>The causal tail of stochastic gravitational waves can be used to probe the energy density in free streaming relativistic species as well as measure g?(T ) and beta functions β(T ) as a function of temperature. In the event of the discovery of loud stochastic gravitational waves, we demonstrate that LISA can measure the free streaming fraction of the universe down to the the 10−3 level, 100 times more sensitive than current constraints. Additionally, it would be sensitive to O(1) deviations of g? and the QCD β function from their Standard Model value at temperatures ∼ 105 GeV. In this case, many motivated models such as split SUSY and other solutions to the Electroweak Hierarchy problem would be tested. Future detectors, such as DECIGO, would be 100 times more sensitive than LISA to these eﬀects and be capable of testing other motivated scenarios such as WIMPs and axions. The amazing prospect of using precision gravitational wave measurements to test such well motivated theories provides a benchmark to aim for when developing a precise understanding of the gravitational wave spectrum both experimentally and theoretically.</dcterms:abstract>
+        <dc:date>2022-11-11</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2203.13842</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-24 06:54:12</dcterms:dateSubmitted>
+        <dc:description>arXiv:2203.13842 [hep-ph]</dc:description>
+        <bib:pages>61</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1029-8479">
+        <prism:volume>2022</prism:volume>
+        <dc:title>Journal of High Energy Physics</dc:title>
+        <dc:identifier>DOI 10.1007/JHEP11(2022)061</dc:identifier>
+        <prism:number>11</prism:number>
+        <dcterms:alternative>J. High Energ. Phys.</dcterms:alternative>
+        <dc:identifier>ISSN 1029-8479</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_1727">
+       <rdf:value>Comment: 28 pages, 11 figures</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_1720">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1720/Brzeminski et al. - 2022 - Precision Early Universe Cosmology from Stochastic Gravitational Waves.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/gr-qc/0501041">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1367-2630"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Flanagan</foaf:surname>
+                        <foaf:givenName>Eanna E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hughes</foaf:surname>
+                        <foaf:givenName>Scott A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1739"/>
+        <link:link rdf:resource="#item_1737"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>General Relativity and Quantum Cosmology</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Astrophysics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>The basics of gravitational wave theory</dc:title>
+        <dcterms:abstract>Einstein’s special theory of relativity revolutionized physics by teaching us that space and time are not separate entities, but join as “spacetime”. His general theory of relativity further taught us that spacetime is not just a stage on which dynamics takes place, but is a participant: The ﬁeld equation of general relativity connects matter dynamics to the curvature of spacetime. Curvature is responsible for gravity, carrying us beyond the Newtonian conception of gravity that had been in place for the previous two and a half centuries. Much research in gravitation since then has explored and clariﬁed the consequences of this revolution; the notion of dynamical spacetime is now ﬁrmly established in the toolkit of modern physics. Indeed, this notion is so well established that we may now contemplate using spacetime as a tool for other science. One aspect of dynamical spacetime — its radiative character, “gravitational radiation” — will inaugurate entirely new techniques for observing violent astrophysical processes. Over the next one hundred years, much of this subject’s excitement will come from learning how to exploit spacetime as a tool for astronomy. This article is intended as a tutorial in the basics of gravitational radiation physics.</dcterms:abstract>
+        <dc:date>2005-09-29</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/gr-qc/0501041</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:03:50</dcterms:dateSubmitted>
+        <dc:description>arXiv:gr-qc/0501041</dc:description>
+        <bib:pages>204-204</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1367-2630">
+        <prism:volume>7</prism:volume>
+        <dc:title>New Journal of Physics</dc:title>
+        <dc:identifier>DOI 10.1088/1367-2630/7/1/204</dc:identifier>
+        <dcterms:alternative>New J. Phys.</dcterms:alternative>
+        <dc:identifier>ISSN 1367-2630</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_1739">
+        <rdf:value>Comment: 49 pages, 3 figures. For special issue of New Journal of Physics, &quot;Spacetime 100 Years Later&quot;, edited by Richard Price and Jorge Pullin. This version corrects an important error in Eq. (4.23); an erratum is in press</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_1737">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1737/Flanagan and Hughes - 2005 - The basics of gravitational wave theory.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_1741">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Burgess</foaf:surname>
+                        <foaf:givenName>C P</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1740"/>
+        <dc:title>A Hands-On Guide for QFT</dc:title>
+        <dcterms:abstract>Quantum field theory is the framework for describing quantum mechanical processes that can change the number of particles. Such a framework proves to be useful pretty much everywhere in physics (even if you don’t want to change the number of particles), but turns out to be compulsory when describing the quantum mechanics of relativistic systems. These notes present an introduction to quantum field theory (both nonrelativistic and relativistic) and are meant to provide a bridge between standard undergraduate topics – nonrelativistic Schr¨odinger quantum mechanics and introductory electromagnetism (with background material reviewed as needed) – and introductory graduate-level subjects like path integrals and Quantum Electrodynamics (QED). More sophisticated topics (notably nonabelian gauge theories and Fadeev-Popov-DeWitt ghosts) are not covered, though a master of these notes has all of the background needed for their study. The development starts with nonrelativistic processes that change the number of particles, building up the foundations needed to describe how special relativity is incorporated into quantum mechanics (including the need for antiparticles and the spin-statistics connection), covering topics usually omitted in introductory treatments. The utility of – and so motivation for – more advanced tools like canonical and path-integral methods is not assumed, but is built up along the way.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1740">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1740/Burgess - From Schr¨odinger to Feynman.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.mdpi.com/1099-4300/22/10/1100">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1099-4300"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nielsen</foaf:surname>
+                        <foaf:givenName>Frank</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1743"/>
+        <dc:title>An Elementary Introduction to Information Geometry</dc:title>
+        <dcterms:abstract>In this survey, we describe the fundamental differential-geometric structures of information manifolds, state the fundamental theorem of information geometry, and illustrate some use cases of these information manifolds in information sciences. The exposition is self-contained by concisely introducing the necessary concepts of differential geometry. Proofs are omitted for brevity.</dcterms:abstract>
+        <dc:date>2020-09-29</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.mdpi.com/1099-4300/22/10/1100</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:21:06</dcterms:dateSubmitted>
+        <dc:rights>https://creativecommons.org/licenses/by/4.0/</dc:rights>
+        <bib:pages>1100</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1099-4300">
+        <prism:volume>22</prism:volume>
+        <dc:title>Entropy</dc:title>
+        <dc:identifier>DOI 10.3390/e22101100</dc:identifier>
+        <prism:number>10</prism:number>
+        <dcterms:alternative>Entropy</dcterms:alternative>
+        <dc:identifier>ISSN 1099-4300</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1743">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1743/Nielsen - 2020 - An Elementary Introduction to Information Geometry.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.mdpi.com/1099-4300/22/10/1100/pdf?version=1603379009</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:21:10</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/1710.05787">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>98</prism:volume>
+                <dc:title>Physical Review E</dc:title>
+                <dc:identifier>DOI 10.1103/PhysRevE.98.052112</dc:identifier>
+                <prism:number>5</prism:number>
+                <dcterms:alternative>Phys. Rev. E</dcterms:alternative>
+                <dc:identifier>ISSN 2470-0045, 2470-0053</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Raju</foaf:surname>
+                        <foaf:givenName>Archishman</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Machta</foaf:surname>
+                        <foaf:givenName>Benjamin B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sethna</foaf:surname>
+                        <foaf:givenName>James P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1745"/>
+        <link:link rdf:resource="#item_1746"/>
+        <link:link rdf:resource="#item_1747"/>
+        <dc:subject>Coarse Graining</dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Condensed Matter - Statistical Mechanics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Information loss under coarse-graining: a geometric approach</dc:title>
+        <dcterms:abstract>We use information geometry, in which the local distance between models measures their distinguishability from data, to quantify the flow of information under the renormalization group. We show that information about relevant parameters is preserved, with distances along relevant directions maintained under flow. By contrast, irrelevant parameters become less distinguishable under the flow, with distances along irrelevant directions contracting according to renormalization group exponents. We develop a covariant formalism to understand the contraction of the model manifold. We then apply our tools to understand the emergence of the diffusion equation and more general statistical systems described by a free energy. Our results give an information-theoretic justification of universality in terms of the flow of the model manifold under coarse-graining.</dcterms:abstract>
+        <dc:date>2018-11-13</dc:date>
+        <z:shortTitle>Information loss under coarse-graining</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1710.05787</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:21:28</dcterms:dateSubmitted>
+        <dc:description>arXiv:1710.05787 [cond-mat]</dc:description>
+        <bib:pages>052112</bib:pages>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_1745">
+       <rdf:value>Comment: New title, fixed typos</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_1746">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1746/Raju et al. - 2018 - Information loss under coarse-graining a geometric approach.pdf"/>
+        <dc:title>Preprint PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/pdf/1710.05787v2</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:21:30</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1747">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1747/1710.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/1710.05787</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:21:38</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/1303.6738">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0036-8075,%201095-9203"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Machta</foaf:surname>
+                        <foaf:givenName>Benjamin B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chachra</foaf:surname>
+                        <foaf:givenName>Ricky</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Transtrum</foaf:surname>
+                        <foaf:givenName>Mark K.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sethna</foaf:surname>
+                        <foaf:givenName>James P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1749"/>
+        <link:link rdf:resource="#item_1750"/>
+        <link:link rdf:resource="#item_1751"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Condensed Matter - Statistical Mechanics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Mathematical Physics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Mathematics - Mathematical Physics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Physics - Data Analysis, Statistics and Probability</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Quantitative Biology - Other Quantitative Biology</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Parameter Space Compression Underlies Emergent Theories and Predictive Models</dc:title>
+        <dcterms:abstract>We report a similarity between the microscopic parameter dependance of emergent theories in physics and that of multiparameter models common in other areas of science. In both cases, predictions are possible despite large uncertainties in the microscopic parameters because these details are compressed into just a few governing parameters that are sufficient to describe relevant observables. We make this commonality explicit by examining parameter sensitivity in a hopping model of diffusion and a generalized Ising model of ferromagnetism. We trace the emergence of a smaller effective model to the development of a hierarchy of parameter importance quantified by the eigenvalues of the Fisher Information Matrix. Strikingly, the same hierarchy appears ubiquitously in models taken from diverse areas of science. We conclude that the emergence of effective continuum and universal theories in physics is due to the same parameter space hierarchy that underlies predictive modeling in other areas of science.</dcterms:abstract>
+        <dc:date>11/2013</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1303.6738</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:21:44</dcterms:dateSubmitted>
+        <dc:description>arXiv:1303.6738 [cond-mat]</dc:description>
+        <bib:pages>604-607</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0036-8075,%201095-9203">
+        <prism:volume>342</prism:volume>
+        <dc:title>Science</dc:title>
+        <dc:identifier>DOI 10.1126/science.1238723</dc:identifier>
+        <prism:number>6158</prism:number>
+        <dcterms:alternative>Science</dcterms:alternative>
+        <dc:identifier>ISSN 0036-8075, 1095-9203</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_1749">
+        <rdf:value>Comment: 5 pages, 3 figures + 9 page Supplement, 1 additional figure</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_1750">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1750/Machta et al. - 2013 - Parameter Space Compression Underlies Emergent Theories and Predictive Models.pdf"/>
+        <dc:title>Preprint PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/pdf/1303.6738v1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:21:46</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1751">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1751/1303.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/1303.6738</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:21:51</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/cond-mat/0401092">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:03784371"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Janke</foaf:surname>
+                        <foaf:givenName>W.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Johnston</foaf:surname>
+                        <foaf:givenName>D. A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kenna</foaf:surname>
+                        <foaf:givenName>R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1753"/>
+        <link:link rdf:resource="#item_1754"/>
+        <link:link rdf:resource="#item_1755"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Condensed Matter - Statistical Mechanics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>High Energy Physics - Lattice</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Information Geometry and Phase Transitions</dc:title>
+        <dcterms:abstract>The introduction of a metric onto the space of parameters in models in Statistical Mechanics and beyond gives an alternative perspective on their phase structure. In such a geometrization, the scalar curvature, R, plays a central role. A non-interacting model has a flat geometry (R=0), while R diverges at the critical point of an interacting one. Here, the information geometry is studied for a number of solvable statistical-mechanical models.</dcterms:abstract>
+        <dc:date>5/2004</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/cond-mat/0401092</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:22:02</dcterms:dateSubmitted>
+        <dc:description>arXiv:cond-mat/0401092</dc:description>
+        <bib:pages>181-186</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:03784371">
+        <prism:volume>336</prism:volume>
+        <dc:title>Physica A: Statistical Mechanics and its Applications</dc:title>
+        <dc:identifier>DOI 10.1016/j.physa.2004.01.023</dc:identifier>
+        <prism:number>1-2</prism:number>
+        <dcterms:alternative>Physica A: Statistical Mechanics and its Applications</dcterms:alternative>
+        <dc:identifier>ISSN 03784371</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_1753">
+       <rdf:value>Comment: 6 pages with 1 figure</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_1754">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1754/Janke et al. - 2004 - Information Geometry and Phase Transitions.pdf"/>
+        <dc:title>Preprint PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/pdf/cond-mat/0401092v1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:22:04</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1755">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1755/0401092.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/cond-mat/0401092</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:22:09</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://royalsocietypublishing.org/doi/10.1098/rsta.2019.0159">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>378</prism:volume>
+                <dc:title>Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences</dc:title>
+                <dc:identifier>DOI 10.1098/rsta.2019.0159</dc:identifier>
+                <prism:number>2164</prism:number>
+                <dcterms:alternative>Phil. Trans. R. Soc. A.</dcterms:alternative>
+                <dc:identifier>ISSN 1364-503X, 1471-2962</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Parr</foaf:surname>
+                        <foaf:givenName>Thomas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Da Costa</foaf:surname>
+                        <foaf:givenName>Lancelot</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Friston</foaf:surname>
+                        <foaf:givenName>Karl</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1757"/>
+        <dc:title>Markov blankets, information geometry and stochastic thermodynamics</dc:title>
+        <dcterms:abstract>This paper considers the relationship between thermodynamics, information and inference. In particular, it explores the thermodynamic concomitants of belief updating, under a variational (free energy) principle for self-organization. In brief, any (weakly mixing) random dynamical system that possesses a Markov blanket—i.e. a separation of internal and external states—is equipped with an information geometry. This means that internal states parametrize a probability density over external states. Furthermore, at non-equilibrium steady-state, the flow of internal states can be construed as a gradient flow on a quantity known in statistics as Bayesian model evidence. In short, there is a natural Bayesian mechanics for any system that possesses a Markov blanket. Crucially, this means that there is an explicit link between the inference performed by internal states and their energetics—as characterized by their stochastic thermodynamics.
+            This article is part of the theme issue ‘Harmonizing energy-autonomous computing and intelligence’.</dcterms:abstract>
+        <dc:date>2020-02-07</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://royalsocietypublishing.org/doi/10.1098/rsta.2019.0159</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:22:28</dcterms:dateSubmitted>
+        <bib:pages>20190159</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1757">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1757/Parr et al. - 2020 - Markov blankets, information geometry and stochastic thermodynamics.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://europepmc.org/articles/pmc6939234?pdf=render</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:22:39</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/0805.2770">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>12</prism:volume>
+                <dc:title>New Journal of Physics</dc:title>
+                <dc:identifier>DOI 10.1088/1367-2630/12/2/023012</dc:identifier>
+                <prism:number>2</prism:number>
+                <dcterms:alternative>New J. Phys.</dcterms:alternative>
+                <dc:identifier>ISSN 1367-2630</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Goyal</foaf:surname>
+                        <foaf:givenName>Philip</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1759"/>
+        <link:link rdf:resource="#item_1760"/>
+        <link:link rdf:resource="#item_1761"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Quantum Physics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>From Information Geometry to Quantum Theory</dc:title>
+        <dcterms:abstract>In this paper, we show how information geometry, the natural geometry of discrete probability distributions, can be used to derive the quantum formalism. The derivation rests upon three elementary features of quantum phenomena, namely complementarity, measurement simulability, and global gauge invariance. When these features are appropriately formalized within an information geometric framework, and combined with a novel information-theoretic principle, the central features of the finite-dimensional quantum formalism can be reconstructed.</dcterms:abstract>
+        <dc:date>2010-02-10</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/0805.2770</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:22:59</dcterms:dateSubmitted>
+        <dc:description>arXiv:0805.2770 [quant-ph]</dc:description>
+        <bib:pages>023012</bib:pages>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_1759">
+        <rdf:value>Comment: v3: 5 pages. Minor clarifications throughout. v2: 5 pages; abstract shortened, introduction significantly improved, citations added</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_1760">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1760/Goyal - 2010 - From Information Geometry to Quantum Theory.pdf"/>
+        <dc:title>Preprint PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/pdf/0805.2770v4</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:23:01</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1761">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1761/0805.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/0805.2770</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:23:05</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="http://arxiv.org/abs/1709.05531">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Girolami</foaf:surname>
+                        <foaf:givenName>Davide</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1763"/>
+        <link:link rdf:resource="#item_1764"/>
+        <link:link rdf:resource="#item_1765"/>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Physics - Data Analysis, Statistics and Probability</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Quantum Physics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Information Geometry of Quantum Resources</dc:title>
+        <dcterms:abstract>I review recent works showing that information geometry is a useful framework to characterize quantum coherence and entanglement. Quantum systems exhibit peculiar properties which cannot be justified by classical physics, e.g. quantum coherence and quantum correlations. Once confined to thought experiments, they are nowadays created and manipulated by exerting an exquisite experimental control of atoms, molecules and photons. It is important to identify and quantify such quantum features, as they are deemed to be key resources to achieve supraclassical performances in computation and communication protocols. The information geometry viewpoint elucidates the advantage provided by quantum superpositions in phase estimation. Also, it enables to link measures of coherence and entanglement to observables, which can be evaluated in a laboratory by a limited number of measurements.</dcterms:abstract>
+        <dc:date>2018</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1709.05531</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:23:35</dcterms:dateSubmitted>
+        <dc:description>DOI: 10.1007/978-3-319-97798-0
+arXiv:1709.05531 [quant-ph]</dc:description>
+        <prism:volume>252</prism:volume>
+    </bib:Book>
+    <bib:Memo rdf:about="#item_1763">
+        <rdf:value>Comment: Contribution to Information Geometry and Its Applications proceedings</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_1764">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1764/Girolami - 2018 - Information Geometry of Quantum Resources.pdf"/>
+        <dc:title>Preprint PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/pdf/1709.05531v2</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:23:36</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1765">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1765/1709.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/1709.05531</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:23:41</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://link.springer.com/10.1007/s11460-010-0101-3">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1673-3460,%201673-3584"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Amari</foaf:surname>
+                        <foaf:givenName>Shun-ichi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1767"/>
+        <dc:title>Information geometry in optimization, machine learning and statistical inference</dc:title>
+        <dc:date>9/2010</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.springer.com/10.1007/s11460-010-0101-3</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:23:56</dcterms:dateSubmitted>
+        <dc:rights>http://www.springer.com/tdm</dc:rights>
+        <bib:pages>241-260</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1673-3460,%201673-3584">
+        <prism:volume>5</prism:volume>
+        <dc:title>Frontiers of Electrical and Electronic Engineering in China</dc:title>
+        <dc:identifier>DOI 10.1007/s11460-010-0101-3</dc:identifier>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>Front. Electr. Electron. Eng. China</dcterms:alternative>
+        <dc:identifier>ISSN 1673-3460, 1673-3584</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1767">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1767/Amari - 2010 - Information geometry in optimization, machine learning and statistical inference.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/2001.02683">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2542-4653"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Erdmenger</foaf:surname>
+                        <foaf:givenName>Johanna</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grosvenor</foaf:surname>
+                        <foaf:givenName>Kevin T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jefferson</foaf:surname>
+                        <foaf:givenName>Ro</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1769"/>
+        <link:link rdf:resource="#item_1770"/>
+        <link:link rdf:resource="#item_1771"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Quantum Physics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>High Energy Physics - Theory</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Information geometry in quantum field theory: lessons from simple examples</dc:title>
+        <dcterms:abstract>Motivated by the increasing connections between information theory and high-energy physics, particularly in the context of the AdS/CFT correspondence, we explore the information geometry associated to a variety of simple systems. By studying their Fisher metrics, we derive some general lessons that may have important implications for the application of information geometry in holography. We begin by demonstrating that the symmetries of the physical theory under study play a strong role in the resulting geometry, and that the appearance of an AdS metric is a relatively general feature. We then investigate what information the Fisher metric retains about the physics of the underlying theory by studying the geometry for both the classical 2d Ising model and the corresponding 1d free fermion theory, and find that the curvature diverges precisely at the phase transition on both sides. We discuss the differences that result from placing a metric on the space of theories vs. states, using the example of coherent free fermion states. We compare the latter to the metric on the space of coherent free boson states and show that in both cases the metric is determined by the symmetries of the corresponding density matrix. We also clarify some misconceptions in the literature pertaining to different notions of flatness associated to metric and non-metric connections, with implications for how one interprets the curvature of the geometry. Our results indicate that in general, caution is needed when connecting the AdS geometry arising from certain models with the AdS/CFT correspondence, and seek to provide a useful collection of guidelines for future progress in this exciting area.</dcterms:abstract>
+        <dc:date>2020-05-06</dc:date>
+        <z:shortTitle>Information geometry in quantum field theory</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2001.02683</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:24:55</dcterms:dateSubmitted>
+        <dc:description>arXiv:2001.02683 [hep-th]</dc:description>
+        <bib:pages>073</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2542-4653">
+        <prism:volume>8</prism:volume>
+        <dc:title>SciPost Physics</dc:title>
+        <dc:identifier>DOI 10.21468/SciPostPhys.8.5.073</dc:identifier>
+        <prism:number>5</prism:number>
+        <dcterms:alternative>SciPost Phys.</dcterms:alternative>
+        <dc:identifier>ISSN 2542-4653</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_1769">
+        <rdf:value>Comment: 36 pages, 2 figures; added new section and appendix, miscellaneous improvements</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_1770">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1770/Erdmenger et al. - 2020 - Information geometry in quantum field theory lessons from simple examples.pdf"/>
+        <dc:title>Preprint PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/pdf/2001.02683v2</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:24:59</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1771">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1771/2001.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/2001.02683</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:25:03</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/1207.6718">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:identifier>DOI 10.1063/1.4820006</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Reginatto</foaf:surname>
+                        <foaf:givenName>Marcel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hall</foaf:surname>
+                        <foaf:givenName>Michael J. W.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1773"/>
+        <link:link rdf:resource="#item_1774"/>
+        <link:link rdf:resource="#item_1775"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Mathematical Physics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Mathematics - Mathematical Physics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Quantum Physics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Information geometry, dynamics and discrete quantum mechanics</dc:title>
+        <dcterms:abstract>We consider a system with a discrete configuration space. We show that the geometrical structures associated with such a system provide the tools necessary for a reconstruction of discrete quantum mechanics once dynamics is brought into the picture. We do this in three steps. Our starting point is information geometry, the natural geometry of the space of probability distributions. Dynamics requires additional structure. To evolve the probabilities $P^k$, we introduce coordinates $S^k$ canonically conjugate to the $P^k$ and a symplectic structure. We then seek to extend the metric structure of information geometry, to define a geometry over the full space of the $P^k$ and $S^k$. Consistency between the metric tensor and the symplectic form forces us to introduce a K\&quot;ahler geometry. The construction has notable features. A complex structure is obtained in a natural way. The canonical coordinates of the K\&quot;ahler space are precisely the wave functions of quantum mechanics. The full group of unitary transformations is obtained. Finally, one may associate a Hilbert space with the K\&quot;ahler space, which leads to the standard version of quantum theory. We also show that the metric that we derive here using purely geometrical arguments is precisely the one that leads to Wootters' expression for the statistical distance for quantum systems.</dcterms:abstract>
+        <dc:date>2013</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1207.6718</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:25:20</dcterms:dateSubmitted>
+        <dc:description>arXiv:1207.6718 [math-ph]</dc:description>
+        <bib:pages>246-253</bib:pages>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_1773">
+        <rdf:value>Comment: 12 pages. Presented at MaxEnt 2012, the 32nd International Workshop on Bayesian Inference and Maximum Entropy Methods in Science and Engineering, July 15-20, 2012, Garching near Munich, Germany. Updated version includes corrections of typos and minor revisions</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_1774">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1774/Reginatto and Hall - 2013 - Information geometry, dynamics and discrete quantum mechanics.pdf"/>
+        <dc:title>Preprint PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/pdf/1207.6718v2</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:25:21</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1775">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1775/1207.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/1207.6718</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:25:26</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/1712.04311">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0031-9007,%201079-7114"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ito</foaf:surname>
+                        <foaf:givenName>Sosuke</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1777"/>
+        <link:link rdf:resource="#item_1778"/>
+        <link:link rdf:resource="#item_1779"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Condensed Matter - Statistical Mechanics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Stochastic thermodynamic interpretation of information geometry</dc:title>
+        <dcterms:abstract>In recent years, the unified theory of information and thermodynamics has been intensively discussed in the context of stochastic thermodynamics. The unified theory reveals that information theory would be useful to understand non-stationary dynamics of systems far from equilibrium. In this letter, we have found a new link between stochastic thermodynamics and information theory well known as information geometry. By applying this link, an information geometric inequality can be interpreted as a thermodynamic uncertainty relationship between speed and thermodynamic cost. We have numerically applied an information geometric inequality to a thermodynamic model of biochemical enzyme reaction.</dcterms:abstract>
+        <dc:date>2018-7-18</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1712.04311</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:26:08</dcterms:dateSubmitted>
+        <dc:description>arXiv:1712.04311 [cond-mat]</dc:description>
+        <bib:pages>030605</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0031-9007,%201079-7114">
+        <prism:volume>121</prism:volume>
+        <dc:title>Physical Review Letters</dc:title>
+        <dc:identifier>DOI 10.1103/PhysRevLett.121.030605</dc:identifier>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>Phys. Rev. Lett.</dcterms:alternative>
+        <dc:identifier>ISSN 0031-9007, 1079-7114</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_1777">
+       <rdf:value>Comment: 13 pages, 3 figures</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_1778">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1778/Ito - 2018 - Stochastic thermodynamic interpretation of information geometry.pdf"/>
+        <dc:title>Preprint PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/pdf/1712.04311v6</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:26:10</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1779">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1779/1712.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/1712.04311</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:26:15</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/2005.01057">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>2021</prism:volume>
+                <dc:title>Journal of Cosmology and Astroparticle Physics</dc:title>
+                <dc:identifier>DOI 10.1088/1475-7516/2021/01/005</dc:identifier>
+                <prism:number>01</prism:number>
+                <dcterms:alternative>J. Cosmol. Astropart. Phys.</dcterms:alternative>
+                <dc:identifier>ISSN 1475-7516</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Giesel</foaf:surname>
+                        <foaf:givenName>Eileen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Reischke</foaf:surname>
+                        <foaf:givenName>Robert</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schäfer</foaf:surname>
+                        <foaf:givenName>Björn Malte</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chia</foaf:surname>
+                        <foaf:givenName>Dominic</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1781"/>
+        <link:link rdf:resource="#item_1782"/>
+        <link:link rdf:resource="#item_1783"/>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Astrophysics - Cosmology and Nongalactic Astrophysics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>General Relativity and Quantum Cosmology</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Information geometry in cosmological inference problems</dc:title>
+        <dcterms:abstract>Statistical inference more often than not involves models which are non-linear in the parameters thus leading to non-Gaussian posteriors. Many computational and analytical tools exist that can deal with non-Gaussian distributions, and empirical Gaussianisation transforms can reduce the amount of non-Gaussianity in a distribution. Alternatively, in this work, we employ methods from information geometry. The latter formulates a set of probability distributions for some given model as a manifold employing a Riemannian structure, equipped with a metric, the Fisher information. In this framework we study the differential geometrical meaning of non-Gaussianities in a higher order Fisher approximation, and their respective transformation behaviour under re-parameterisation, which corresponds to a chart transition on the statistical manifold. While weak non-Gaussianities vanish in normal coordinates in a first order approximation, one can in general not find transformations that discard non-Gaussianities globally. As an application we consider the likelihood of the supernovae distance-redshift relation in cosmology for the parameter pair ($\Omega_{\mathrm{m_0}}$, $w$). We demonstrate the connection between confidence intervals and geodesic length and demonstrate how the Lie-derivative along the degeneracy directions gives hints at possible isometries of the Fisher metric.</dcterms:abstract>
+        <dc:date>2021-01-04</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2005.01057</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:27:12</dcterms:dateSubmitted>
+        <dc:description>arXiv:2005.01057 [gr-qc]</dc:description>
+        <bib:pages>005-005</bib:pages>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_1781">
+        <rdf:value>Comment: 20 pages, 5 figures, figures modified, discussion added, matches journal version</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_1782">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1782/Giesel et al. - 2021 - Information geometry in cosmological inference problems.pdf"/>
+        <dc:title>Preprint PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/pdf/2005.01057v2</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:27:16</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1783">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1783/2005.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/2005.01057</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:27:20</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/1410.6809">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Balasubramanian</foaf:surname>
+                        <foaf:givenName>Vijay</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Heckman</foaf:surname>
+                        <foaf:givenName>Jonathan J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Maloney</foaf:surname>
+                        <foaf:givenName>Alexander</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1785"/>
+        <dcterms:isReferencedBy rdf:resource="#item_1799"/>
+        <link:link rdf:resource="#item_1786"/>
+        <link:link rdf:resource="#item_1787"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>High Energy Physics - Theory</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Condensed Matter - Disordered Systems and Neural Networks</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Disordered Systems and Neural Networks (cond-mat.dis-nn)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>FOS: Physical sciences</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>High Energy Physics - Theory (hep-th)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Relative Entropy and Proximity of Quantum Field Theories</dc:title>
+        <dcterms:abstract>We study the question of how reliably one can distinguish two quantum field theories (QFTs). Each QFT defines a probability distribution on the space of fields. The relative entropy provides a notion of proximity between these distributions and quantifies the number of measurements required to distinguish between them. In the case of nearby conformal field theories, this reduces to the Zamolodchikov metric on the space of couplings. Our formulation quantifies the information lost under renormalization group flow from the UV to the IR and leads us to a quantification of fine-tuning. This formalism also leads us to a criterion for distinguishability of low energy effective field theories generated by the string theory landscape.</dcterms:abstract>
+        <dc:date>2015-05-07</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1410.6809</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:28:23</dcterms:dateSubmitted>
+        <dc:description>arXiv:1410.6809 [hep-th]</dc:description>
+        <prism:number>arXiv:1410.6809</prism:number>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_1785">
+        <rdf:value>Comment: v2: 7 pages, clarifications and references added</rdf:value>
+    </bib:Memo>
+    <bib:Memo rdf:about="#item_1799">
+        <rdf:value>&lt;h2&gt;Other&lt;/h2&gt;
+v2: 7 pages, clarifications and references added</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_1786">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1786/Balasubramanian et al. - 2015 - Relative Entropy and Proximity of Quantum Field Theories.pdf"/>
+        <dc:title>Preprint PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/pdf/1410.6809v2</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:28:24</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1787">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1787/1410.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/1410.6809</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:28:28</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://link.aps.org/doi/10.1103/PhysRevX.6.021031">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2160-3308"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pires</foaf:surname>
+                        <foaf:givenName>Diego Paiva</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cianciaruso</foaf:surname>
+                        <foaf:givenName>Marco</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Céleri</foaf:surname>
+                        <foaf:givenName>Lucas C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Adesso</foaf:surname>
+                        <foaf:givenName>Gerardo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Soares-Pinto</foaf:surname>
+                        <foaf:givenName>Diogo O.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1789"/>
+        <dc:title>Generalized Geometric Quantum Speed Limits</dc:title>
+        <dc:date>2016-6-2</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.aps.org/doi/10.1103/PhysRevX.6.021031</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:28:40</dcterms:dateSubmitted>
+        <dc:rights>http://creativecommons.org/licenses/by/3.0/</dc:rights>
+        <bib:pages>021031</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2160-3308">
+        <prism:volume>6</prism:volume>
+        <dc:title>Physical Review X</dc:title>
+        <dc:identifier>DOI 10.1103/PhysRevX.6.021031</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>Phys. Rev. X</dcterms:alternative>
+        <dc:identifier>ISSN 2160-3308</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1789">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1789/Pires et al. - 2016 - Generalized Geometric Quantum Speed Limits.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.aps.org/pdf/10.1103/PhysRevX.6.021031</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:28:47</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/0803.4089">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0010-7514,%201366-5812"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Trotta</foaf:surname>
+                        <foaf:givenName>Roberto</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1791"/>
+        <link:link rdf:resource="#item_1792"/>
+        <link:link rdf:resource="#item_1793"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Astrophysics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Bayes in the sky: Bayesian inference and model selection in cosmology</dc:title>
+        <dcterms:abstract>The application of Bayesian methods in cosmology and astrophysics has flourished over the past decade, spurred by data sets of increasing size and complexity. In many respects, Bayesian methods have proven to be vastly superior to more traditional statistical tools, offering the advantage of higher efficiency and of a consistent conceptual basis for dealing with the problem of induction in the presence of uncertainty. This trend is likely to continue in the future, when the way we collect, manipulate and analyse observations and compare them with theoretical models will assume an even more central role in cosmology. This review is an introduction to Bayesian methods in cosmology and astrophysics and recent results in the field. I first present Bayesian probability theory and its conceptual underpinnings, Bayes' Theorem and the role of priors. I discuss the problem of parameter inference and its general solution, along with numerical techniques such as Monte Carlo Markov Chain methods. I then review the theory and application of Bayesian model comparison, discussing the notions of Bayesian evidence and effective model complexity, and how to compute and interpret those quantities. Recent developments in cosmological parameter extraction and Bayesian cosmological model building are summarized, highlighting the challenges that lie ahead.</dcterms:abstract>
+        <dc:date>03/2008</dc:date>
+        <z:shortTitle>Bayes in the sky</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/0803.4089</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:29:01</dcterms:dateSubmitted>
+        <dc:description>arXiv:0803.4089 [astro-ph]</dc:description>
+        <bib:pages>71-104</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0010-7514,%201366-5812">
+        <prism:volume>49</prism:volume>
+        <dc:title>Contemporary Physics</dc:title>
+        <dc:identifier>DOI 10.1080/00107510802066753</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>Contemporary Physics</dcterms:alternative>
+        <dc:identifier>ISSN 0010-7514, 1366-5812</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_1791">
+        <rdf:value>Comment: Invited review to appear in Contemporary Physics. 41 pages, 6 figures. Expanded references wrt published version</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_1792">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1792/Trotta - 2008 - Bayes in the sky Bayesian inference and model selection in cosmology.pdf"/>
+        <dc:title>Preprint PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/pdf/0803.4089v1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:29:04</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1793">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1793/0803.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/0803.4089</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:29:09</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/0706.0559">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>99</prism:volume>
+                <dc:title>Physical Review Letters</dc:title>
+                <dc:identifier>DOI 10.1103/PhysRevLett.99.100602</dc:identifier>
+                <prism:number>10</prism:number>
+                <dcterms:alternative>Phys. Rev. Lett.</dcterms:alternative>
+                <dc:identifier>ISSN 0031-9007, 1079-7114</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Crooks</foaf:surname>
+                        <foaf:givenName>Gavin E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1795"/>
+        <link:link rdf:resource="#item_1796"/>
+        <link:link rdf:resource="#item_1797"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Condensed Matter - Statistical Mechanics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Measuring thermodynamic length</dc:title>
+        <dcterms:abstract>Thermodynamic length is a metric distance between equilibrium thermodynamic states. Among other interesting properties, this metric asymptotically bounds the dissipation induced by a finite time transformation of a thermodynamic system. It is also connected to the Jensen-Shannon divergence, Fisher information and Rao's entropy differential metric. Therefore, thermodynamic length is of central interest in understanding matter out-of-equilibrium. In this paper, we will consider how to define thermodynamic length for a small system described by equilibrium statistical mechanics and how to measure thermodynamic length within a computer simulation. Surprisingly, Bennett's classic acceptance ratio method for measuring free energy differences also measures thermodynamic length.</dcterms:abstract>
+        <dc:date>2007-9-7</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/0706.0559</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:29:37</dcterms:dateSubmitted>
+        <dc:description>arXiv:0706.0559 [cond-mat]</dc:description>
+        <bib:pages>100602</bib:pages>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_1795">
+       <rdf:value>Comment: 4 pages; Typos corrected</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_1796">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1796/Crooks - 2007 - Measuring thermodynamic length.pdf"/>
+        <dc:title>Preprint PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/pdf/0706.0559v2</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:29:38</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1797">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1797/0706.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/0706.0559</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:29:44</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://arxiv.org/abs/2311.01250">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:identifier>DOI 10.48550/ARXIV.2311.01250</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Avanzini</foaf:surname>
+                        <foaf:givenName>Francesco</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bilancioni</foaf:surname>
+                        <foaf:givenName>Massimo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cavina</foaf:surname>
+                        <foaf:givenName>Vasco</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cengio</foaf:surname>
+                        <foaf:givenName>Sara Dal</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Esposito</foaf:surname>
+                        <foaf:givenName>Massimiliano</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Falasco</foaf:surname>
+                        <foaf:givenName>Gianmaria</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Forastiere</foaf:surname>
+                        <foaf:givenName>Danilo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Freitas</foaf:surname>
+                        <foaf:givenName>Nahuel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Garilli</foaf:surname>
+                        <foaf:givenName>Alberto</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Harunari</foaf:surname>
+                        <foaf:givenName>Pedro E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lecomte</foaf:surname>
+                        <foaf:givenName>Vivien</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lazarescu</foaf:surname>
+                        <foaf:givenName>Alexandre</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Srinivas</foaf:surname>
+                        <foaf:givenName>Shesha G. Marehalli</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Moslonka</foaf:surname>
+                        <foaf:givenName>Charles</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Neri</foaf:surname>
+                        <foaf:givenName>Izaak</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Penocchio</foaf:surname>
+                        <foaf:givenName>Emanuele</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Piñeros</foaf:surname>
+                        <foaf:givenName>William D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Polettini</foaf:surname>
+                        <foaf:givenName>Matteo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Raghu</foaf:surname>
+                        <foaf:givenName>Adarsh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Raux</foaf:surname>
+                        <foaf:givenName>Paul</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sekimoto</foaf:surname>
+                        <foaf:givenName>Ken</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Soret</foaf:surname>
+                        <foaf:givenName>Ariane</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1801"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>FOS: Physical sciences</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>Non-Equilibrium Thermodynamics</dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Statistical Mechanics (cond-mat.stat-mech)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Methods and Conversations in (Post)Modern Thermodynamics</dc:title>
+        <dcterms:abstract>Lecture notes after the doctoral school (Post)Modern Thermodynamics held at the University of Luxembourg, December 2022, 5-7, covering and advancing continuous-time Markov chains, network theory, stochastic thermodynamics, large deviations, deterministic and stochastic chemical reaction networks, metastability, martingales, quantum thermodynamics, and foundational issues.</dcterms:abstract>
+        <dc:date>2023</dc:date>
+        <z:libraryCatalog>DOI.org (Datacite)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/2311.01250</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:30:40</dcterms:dateSubmitted>
+        <dc:rights>arXiv.org perpetual, non-exclusive license</dc:rights>
+        <dc:description>Publisher: arXiv
+Version Number: 2</dc:description>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_1801">
+       <rdf:value>&lt;h2&gt;Other&lt;/h2&gt;
+Submission to SciPost</rdf:value>
+    </bib:Memo>
+    <bib:Article rdf:about="https://link.aps.org/doi/10.1103/PhysRevE.108.034101">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>108</prism:volume>
+                <dc:title>Physical Review E</dc:title>
+                <dc:identifier>DOI 10.1103/PhysRevE.108.034101</dc:identifier>
+                <prism:number>3</prism:number>
+                <dcterms:alternative>Phys. Rev. E</dcterms:alternative>
+                <dc:identifier>ISSN 2470-0045, 2470-0053</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kolchinsky</foaf:surname>
+                        <foaf:givenName>Artemy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1803"/>
+        <dc:subject>Physics of computation</dc:subject>
+        <dc:subject>Thermodynamic computation</dc:subject>
+        <dc:title>Generalized Zurek's bound on the cost of an individual classical or quantum computation</dc:title>
+        <dc:date>2023-9-1</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.aps.org/doi/10.1103/PhysRevE.108.034101</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:31:13</dcterms:dateSubmitted>
+        <bib:pages>034101</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1803">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1803/Kolchinsky - 2023 - Generalized Zurek's bound on the cost of an individual classical or quantum computation.pdf"/>
+        <dc:title>Submitted Version</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/2301.06838</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:31:17</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://link.aps.org/doi/10.1103/PhysRevLett.109.120604">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>109</prism:volume>
+                <dc:title>Physical Review Letters</dc:title>
+                <dc:identifier>DOI 10.1103/PhysRevLett.109.120604</dc:identifier>
+                <prism:number>12</prism:number>
+                <dcterms:alternative>Phys. Rev. Lett.</dcterms:alternative>
+                <dc:identifier>ISSN 0031-9007, 1079-7114</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Still</foaf:surname>
+                        <foaf:givenName>Susanne</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sivak</foaf:surname>
+                        <foaf:givenName>David A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bell</foaf:surname>
+                        <foaf:givenName>Anthony J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Crooks</foaf:surname>
+                        <foaf:givenName>Gavin E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1805"/>
+        <dc:subject>Computational complexity</dc:subject>
+        <dc:subject>Computational mechanics</dc:subject>
+        <dc:subject>Reading list</dc:subject>
+        <dc:title>Thermodynamics of Prediction</dc:title>
+        <dc:date>2012-9-19</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.aps.org/doi/10.1103/PhysRevLett.109.120604</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:32:36</dcterms:dateSubmitted>
+        <dc:rights>http://link.aps.org/licenses/aps-default-license</dc:rights>
+        <bib:pages>120604</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1805">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1805/Still et al. - 2012 - Thermodynamics of Prediction.pdf"/>
+        <dc:title>Accepted Version</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.aps.org/accepted/10.1103/PhysRevLett.109.120604</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:32:40</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://link.aps.org/doi/10.1103/PhysRevLett.74.66">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>74</prism:volume>
+                <dc:title>Physical Review Letters</dc:title>
+                <dc:identifier>DOI 10.1103/PhysRevLett.74.66</dc:identifier>
+                <prism:number>1</prism:number>
+                <dcterms:alternative>Phys. Rev. Lett.</dcterms:alternative>
+                <dc:identifier>ISSN 0031-9007, 1079-7114</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Paladin</foaf:surname>
+                        <foaf:givenName>Giovanni</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Serva</foaf:surname>
+                        <foaf:givenName>Maurizio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vulpiani</foaf:surname>
+                        <foaf:givenName>Angelo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1807"/>
+        <dc:subject>Computational complexity</dc:subject>
+        <dc:subject>Computational mechanics</dc:subject>
+        <dc:subject>Novel notions of complexity</dc:subject>
+        <dc:title>Complexity in Dynamical Systems with Noise</dc:title>
+        <dc:date>1995-1-2</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.aps.org/doi/10.1103/PhysRevLett.74.66</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-25 04:34:22</dcterms:dateSubmitted>
+        <dc:rights>http://link.aps.org/licenses/aps-default-license</dc:rights>
+        <bib:pages>66-69</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1807">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1807/Paladin et al. - 1995 - Complexity in Dynamical Systems with Noise.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.mdpi.com/1099-4300/26/10/883">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>26</prism:volume>
+                <dc:title>Entropy</dc:title>
+                <dc:identifier>DOI 10.3390/e26100883</dc:identifier>
+                <prism:number>10</prism:number>
+                <dcterms:alternative>Entropy</dcterms:alternative>
+                <dc:identifier>ISSN 1099-4300</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Varley</foaf:surname>
+                        <foaf:givenName>Thomas F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1841"/>
+        <dc:subject>Complex systems</dc:subject>
+        <dc:subject>Computational interpretation of physical systems</dc:subject>
+        <dc:subject>Computational mechanics</dc:subject>
+        <dc:subject>Physics of computation</dc:subject>
+        <dc:title>A Synergistic Perspective on Multivariate Computation and Causality in Complex Systems</dc:title>
+        <dcterms:abstract>What does it mean for a complex system to “compute” or perform “computations”? Intuitively, we can understand complex “computation” as occurring when a system’s state is a function of multiple inputs (potentially including its own past state). Here, we discuss how computational processes in complex systems can be generally studied using the concept of statistical synergy, which is information about an output that can only be learned when the joint state of all inputs is known. Building on prior work, we show that this approach naturally leads to a link between multivariate information theory and topics in causal inference, specifically, the phenomenon of causal colliders. We begin by showing how Berkson’s paradox implies a higher-order, synergistic interaction between multidimensional inputs and outputs. We then discuss how causal structure learning can refine and orient analyses of synergies in empirical data, and when empirical synergies meaningfully reflect computation versus when they may be spurious. We end by proposing that this conceptual link between synergy, causal colliders, and computation can serve as a foundation on which to build a mathematically rich general theory of computation in complex systems.</dcterms:abstract>
+        <dc:date>2024-10-21</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.mdpi.com/1099-4300/26/10/883</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-27 01:30:20</dcterms:dateSubmitted>
+        <dc:rights>https://creativecommons.org/licenses/by/4.0/</dc:rights>
+        <bib:pages>883</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1841">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1841/Varley - 2024 - A Synergistic Perspective on Multivariate Computation and Causality in Complex Systems.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.mdpi.com/1099-4300/26/10/883/pdf?version=1729582080</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-31 11:24:22</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/2311.10957">
+        <z:itemType>preprint</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Calvert</foaf:surname>
+                        <foaf:givenName>Jacob</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Randall</foaf:surname>
+                        <foaf:givenName>Dana</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1824"/>
+        <dc:title>A local-global principle for nonequilibrium steady states</dc:title>
+        <dcterms:abstract>The global steady state of a system in thermal equilibrium exponentially favors configurations with lesser energy. This principle is a powerful explanation of self-organization because energy is a local property of a configuration. For nonequilibrium systems, there is no such property for which an analogous principle holds, hence no common explanation of the diverse forms of self-organization they exhibit. However, a flurry of recent work demonstrates that a local property of configurations called &quot;rattling&quot; predicts the global steady states of a broad class of nonequilibrium systems. We interpret this emerging physical theory in terms of Markov processes to generalize and prove its main claims. Surprisingly, we find that the idea at the core of rattling theory is so general as to apply to equilibrium and nonequilibrium systems alike. Its predictions hold to an extent determined by the relative variance of, and correlation between, the local and global &quot;parts&quot; of an arbitrary steady state. We show how these key quantities characterize the local-global relationships of random walks on random graphs, various spin-glass dynamics, and models of animal collective behavior.</dcterms:abstract>
+        <dc:date>2024-06-12</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2311.10957</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-29 14:06:52</dcterms:dateSubmitted>
+        <dc:description>arXiv:2311.10957</dc:description>
+        <prism:number>arXiv:2311.10957</prism:number>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1824">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Calvert and Randall - 2024 - A local-global principle for nonequilibrium steady states.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://thegradient.pub/dont-forget-about-associative-memories/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog></z:Blog>
+        </dcterms:isPartOf>
+        <dc:title>Don't Forget About Associative Memories</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://thegradient.pub/dont-forget-about-associative-memories/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+    </bib:Document>
+    <bib:Book rdf:about="urn:isbn:9789811666438%209789811666445">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+               <dc:title>SpringerBriefs in Mathematical Physics</dc:title>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Singapore</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Springer Singapore</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sagawa</foaf:surname>
+                        <foaf:givenName>Takahiro</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1826"/>
+        <dc:subject>Information thermodynamics</dc:subject>
+        <dc:subject>Resource theory</dc:subject>
+        <dc:subject>Stochastic thermodynamics</dc:subject>
+        <dc:title>Entropy, Divergence, and Majorization in Classical and Quantum Thermodynamics</dc:title>
+        <dcterms:abstract>Presents rigorous proofs of the fundamental properties of entropy-like quantities in a self-contained manner
+
+Gives a unified view of different formulations of modern thermodynamics—stochastic thermodynamics and resource theory
+
+Argues coherently the mathematical (information-theoretic) and physical aspects of out-of-equilibrium thermodynamics</dcterms:abstract>
+        <dc:date>2022</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/10.1007/978-981-16-6644-5</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-31 11:05:11</dcterms:dateSubmitted>
+        <dc:rights>https://www.springer.com/tdm</dc:rights>
+        <dc:description>DOI: 10.1007/978-981-16-6644-5</dc:description>
+        <prism:volume>16</prism:volume>
+        <dc:identifier>ISBN 9789811666438 9789811666445</dc:identifier>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_1826">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1826/Sagawa - 2022 - Entropy, Divergence, and Majorization in Classical and Quantum Thermodynamics.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="urn:isbn:978-981-19818-5-2%20978-981-19818-6-9">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+               <dc:title>Fundamental Theories of Physics</dc:title>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Singapore</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Springer Nature Singapore</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shiraishi</foaf:surname>
+                        <foaf:givenName>Naoto</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1827"/>
+        <dc:subject>Information thermodynamics</dc:subject>
+        <dc:subject>Stochastic thermodynamics</dc:subject>
+        <dc:title>An Introduction to Stochastic Thermodynamics: From Basic to Advanced</dc:title>
+        <dcterms:abstract>Offers an essential primer on stochastic thermodynamics
+
+Reviews key advances in stochastic thermodynamics made over the last two decades
+
+Covers recent topics: information thermodynamics, the thermodynamic uncertainty relation, and the trade-off relation</dcterms:abstract>
+        <dc:date>2023</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>An Introduction to Stochastic Thermodynamics</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/10.1007/978-981-19-8186-9</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-31 11:05:17</dcterms:dateSubmitted>
+        <dc:rights>https://www.springernature.com/gp/researchers/text-and-data-mining</dc:rights>
+        <dc:description>DOI: 10.1007/978-981-19-8186-9</dc:description>
+        <prism:volume>212</prism:volume>
+        <dc:identifier>ISBN 978-981-19818-5-2 978-981-19818-6-9</dc:identifier>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_1827">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1827/Shiraishi - 2023 - An Introduction to Stochastic Thermodynamics From Basic to Advanced.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_1831">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ziebart</foaf:surname>
+                        <foaf:givenName>Brian D</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bagnell</foaf:surname>
+                        <foaf:givenName>J Andrew</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dey</foaf:surname>
+                        <foaf:givenName>Anind K</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1830"/>
+        <dc:subject>Maximum Causal Entropy</dc:subject>
+        <dc:title>Modeling Interaction via the Principle of Maximum Causal Entropy</dc:title>
+        <dcterms:abstract>The principle of maximum entropy provides a powerful framework for statistical models of joint, conditional, and marginal distributions. However, there are many important distributions with elements of interaction and feedback where its applicability has not been established. This work presents the principle of maximum causal entropy – an approach based on causally conditioned probabilities that can appropriately model the availability and inﬂuence of sequentially revealed side information. Using this principle, we derive Maximum Causal Entropy Inﬂuence Diagrams, a new probabilistic graphical framework for modeling decision making in settings with latent information, sequential interaction, and feedback. We describe the theoretical advantages of this model and demonstrate its applicability for statistically framing inverse optimal control and decision prediction tasks.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1830">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1830/Ziebart et al. - Modeling Interaction via the Principle of Maximum Causal Entropy.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://link.aps.org/doi/10.1103/PhysRevLett.133.158401">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>133</prism:volume>
+                <dc:title>Physical Review Letters</dc:title>
+                <dc:identifier>DOI 10.1103/PhysRevLett.133.158401</dc:identifier>
+                <prism:number>15</prism:number>
+                <dcterms:alternative>Phys. Rev. Lett.</dcterms:alternative>
+                <dc:identifier>ISSN 0031-9007, 1079-7114</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nicoletti</foaf:surname>
+                        <foaf:givenName>Giorgio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Busiello</foaf:surname>
+                        <foaf:givenName>Daniel Maria</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1836"/>
+        <dc:subject>Thermodynamic computation</dc:subject>
+        <dc:subject>Thermodynamic inference</dc:subject>
+        <dc:title>Tuning Transduction from Hidden Observables to Optimize Information Harvesting</dc:title>
+        <dcterms:abstract>Biological and living organisms sense and process information from their surroundings, typically having access only to a subset of external observables for a limited amount of time. In this Letter, we uncover how biological systems can exploit these accessible degrees of freedom to transduce information from the inaccessible ones with a limited energy budget. We find that optimal transduction strategies may boost information harvesting over the ideal case in which all degrees of freedom are known, even when only finite-time trajectories are observed, at the price of higher dissipation. We apply our results to red blood cells, inferring the implemented transduction strategy from membrane flickering data and shedding light on the connection between mechanical stress and transduction efficiency. Our framework offers novel insights into the adaptive strategies of biological systems under nonequilibrium conditions.
+            
+              
+              
+                
+                  Published by the American Physical Society
+                  2024</dcterms:abstract>
+        <dc:date>2024-10-7</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.aps.org/doi/10.1103/PhysRevLett.133.158401</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-31 11:20:02</dcterms:dateSubmitted>
+        <bib:pages>158401</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1836">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1836/Nicoletti and Busiello - 2024 - Tuning Transduction from Hidden Observables to Optimize Information Harvesting.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.133.158401</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-31 11:20:17</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://arxiv.org/abs/2409.06083">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bettmann</foaf:surname>
+                        <foaf:givenName>Laetitia P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Goold</foaf:surname>
+                        <foaf:givenName>John</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1835"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>FOS: Physical sciences</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Quantum Physics (quant-ph)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Statistical Mechanics (cond-mat.stat-mech)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Information geometry approach to quantum stochastic thermodynamics</dc:title>
+        <dcterms:abstract>Recent advancements have revealed new links between information geometry and classical stochastic thermodynamics, particularly through the Fisher information with respect to time. Recognizing the non-uniqueness of the quantum Fisher metric in Hilbert space, we exploit the fact that any quantum Fisher information (QFI) can be decomposed into a metric-independent incoherent part and a metric-dependent coherent contribution. We demonstrate that the incoherent component of any QFI can be directly linked to entropic acceleration, and for GKSL dynamics with local detailed balance, to the rate of change of generalized thermodynamic forces and entropic flow, paralleling the classical results. Furthermore, we show that the classical uncertainty relation between the geometric uncertainty of a path in state space and the time-averaged rate of information change also holds for quantum systems. We generalise a classical geometric bound on the entropy rate for far-from-equilibrium processes by incorporating a non-negative quantum contribution that arises from the geometric action due to coherent dynamics. Finally, we apply an information-geometric analysis to the recently proposed quantum-thermodynamic Mpemba effect, demonstrating this framework's ability to capture thermodynamic phenomena.</dcterms:abstract>
+        <dc:date>2024</dc:date>
+        <z:libraryCatalog>DOI.org (Datacite)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/2409.06083</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-31 11:20:15</dcterms:dateSubmitted>
+        <dc:rights>Creative Commons Attribution 4.0 International</dc:rights>
+        <dc:description>Version Number: 2</dc:description>
+        <dc:identifier>DOI 10.48550/ARXIV.2409.06083</dc:identifier>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_1835">
+        <rdf:value>&lt;h2&gt;Other&lt;/h2&gt;
+12 pages, 4 figures. Comments welcome!</rdf:value>
+    </bib:Memo>
+    <rdf:Description rdf:about="https://arxiv.org/abs/2410.07131">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wolpert</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Scharnhorst</foaf:surname>
+                        <foaf:givenName>Jordan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_1838"/>
+        <link:link rdf:resource="#item_1839"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computational Complexity (cs.CC)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Formal Languages and Automata Theory (cs.FL)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>FOS: Computer and information sciences</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Logic in Computer Science (cs.LO)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>Stochastic Turing Machines</dc:subject>
+        <dc:title>Stochastic Process Turing Machines</dc:title>
+        <dcterms:abstract>Computer science theory provides many different measures of complexity of a system including Kolmogorov complexity, logical depth, computational depth, and Levin complexity. However, these measures are all defined only for deterministic Turing machines, i.e., deterministic dynamics of the underlying generative process whose output we are interested in. Therefore, by construction they cannot capture complexity of the output of stochastic processes - like those in the real world. Motivated by this observation, we combine probabilistic Turing machines with a prior over the inputs to the Turing machine to define a complete stochastic process of Turing machines. We call this a stochastic process Turing machine. Stochastic process Turing machines allow us to formalize a stochastic generalization of logical depth called stochastic depth, and also to apply stochastic thermodynamics to the analysis of Turing machines. Stochastic process Turing machines and stochastic depth allow us to study the complex, stochastic systems like the human brain, societies, and evolution all from within the framework of formal computation.</dcterms:abstract>
+        <dc:date>2024</dc:date>
+        <z:libraryCatalog>DOI.org (Datacite)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/2410.07131</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-31 11:23:21</dcterms:dateSubmitted>
+        <dc:rights>Creative Commons Attribution Non Commercial No Derivatives 4.0 International</dc:rights>
+        <dc:description>Version Number: 1</dc:description>
+        <dc:identifier>DOI 10.48550/ARXIV.2410.07131</dc:identifier>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_1838">
+        <rdf:value>&lt;h2&gt;Other&lt;/h2&gt;
+30 pages. arXiv admin note: text overlap with arXiv:2404.16050, arXiv:1905.05669</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_1839">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1839/Wolpert and Scharnhorst - 2024 - Stochastic Process Turing Machines.pdf"/>
+        <dc:title>Preprint PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/pdf/2410.07131v1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-31 11:24:02</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
     <z:Collection rdf:about="#collection_11">
         <dc:title>Current Interests</dc:title>
         <dcterms:hasPart rdf:resource="#collection_2"/>
@@ -15000,6 +17700,7 @@ Version Number: 2</dc:description>
     <z:Collection rdf:about="#collection_2">
         <dc:title>Information theory</dc:title>
         <dcterms:hasPart rdf:resource="#collection_7"/>
+        <dcterms:hasPart rdf:resource="#collection_75"/>
         <dcterms:hasPart rdf:resource="#collection_4"/>
         <dcterms:hasPart rdf:resource="#item_1"/>
         <dcterms:hasPart rdf:resource="#item_2"/>
@@ -15133,6 +17834,13 @@ Version Number: 2</dc:description>
         <dcterms:hasPart rdf:resource="https://www.journals.uchicago.edu/doi/10.1093/bjps/axx046"/>
         <dcterms:hasPart rdf:resource="https://link.aps.org/doi/10.1103/PhysRevResearch.2.033312"/>
         <dcterms:hasPart rdf:resource="https://royalsocietypublishing.org/doi/10.1098/rsta.2016.0338"/>
+        <dcterms:hasPart rdf:resource="https://epubs.siam.org/doi/10.1137/20M1355896"/>
+        <dcterms:hasPart rdf:resource="https://link.aps.org/doi/10.1103/PhysRevE.108.034101"/>
+        <dcterms:hasPart rdf:resource="https://link.aps.org/doi/10.1103/PhysRevLett.109.120604"/>
+        <dcterms:hasPart rdf:resource="https://link.aps.org/doi/10.1103/PhysRevLett.74.66"/>
+        <dcterms:hasPart rdf:resource="https://www.mdpi.com/1099-4300/26/10/883"/>
+        <dcterms:hasPart rdf:resource="https://link.aps.org/doi/10.1103/PhysRevLett.133.158401"/>
+        <dcterms:hasPart rdf:resource="https://arxiv.org/abs/2410.07131"/>
     </z:Collection>
     <z:Collection rdf:about="#collection_19">
         <dc:title>Basics</dc:title>
@@ -15155,6 +17863,26 @@ Version Number: 2</dc:description>
         <dcterms:hasPart rdf:resource="#item_51"/>
         <dcterms:hasPart rdf:resource="#item_57"/>
         <dcterms:hasPart rdf:resource="#item_60"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_75">
+        <dc:title>Information geometry</dc:title>
+        <dcterms:hasPart rdf:resource="https://www.mdpi.com/1099-4300/22/10/1100"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/1710.05787"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/1303.6738"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/cond-mat/0401092"/>
+        <dcterms:hasPart rdf:resource="https://royalsocietypublishing.org/doi/10.1098/rsta.2019.0159"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/0805.2770"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/1709.05531"/>
+        <dcterms:hasPart rdf:resource="http://link.springer.com/10.1007/s11460-010-0101-3"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/2001.02683"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/1207.6718"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/1712.04311"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/2005.01057"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/1410.6809"/>
+        <dcterms:hasPart rdf:resource="https://link.aps.org/doi/10.1103/PhysRevX.6.021031"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/0803.4089"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/0706.0559"/>
+        <dcterms:hasPart rdf:resource="https://arxiv.org/abs/2409.06083"/>
     </z:Collection>
     <z:Collection rdf:about="#collection_4">
         <dc:title>Quantum Information Theory</dc:title>
@@ -15206,15 +17934,40 @@ Version Number: 2</dc:description>
         <dcterms:hasPart rdf:resource="#item_10"/>
         <dcterms:hasPart rdf:resource="https://math.ucr.edu/home/baez/thermo/Jarzynski_SFI_Tutorial_Nonequilibrium_Statistical_Mechanics.pdf"/>
         <dcterms:hasPart rdf:resource="urn:isbn:978-3-0348-0358-8%20978-3-0348-0359-5"/>
+        <dcterms:hasPart rdf:resource="https://pubs.aip.org/jcp/article/133/3/034119/905298/Maximum-caliber-inference-of-nonequilibrium"/>
+        <dcterms:hasPart rdf:resource="https://link.aps.org/doi/10.1103/RevModPhys.85.1115"/>
+        <dcterms:hasPart rdf:resource="https://arxiv.org/abs/2311.01250"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/2311.10957"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:9789811666438%209789811666445"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-981-19818-5-2%20978-981-19818-6-9"/>
+        <dcterms:hasPart rdf:resource="#item_1831"/>
     </z:Collection>
     <z:Collection rdf:about="#collection_70">
         <dc:title>Project with Csaba</dc:title>
+        <dcterms:hasPart rdf:resource="#collection_74"/>
+        <dcterms:hasPart rdf:resource="#collection_73"/>
         <dcterms:hasPart rdf:resource="https://www.cambridge.org/core/product/identifier/S0031824800008667/type/journal_article"/>
         <dcterms:hasPart rdf:resource="https://arxiv.org/abs/1909.11822"/>
+        <dcterms:hasPart rdf:resource="https://iopscience.iop.org/article/10.1088/1751-8121/ad6f7e"/>
+        <dcterms:hasPart rdf:resource="https://pubs.aip.org/cha/article/28/7/075312/386424/Local-causal-states-and-discrete-coherent"/>
+        <dcterms:hasPart rdf:resource="https://link.aps.org/doi/10.1103/PhysRevE.98.012110"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_74">
+        <dc:title>Physics background</dc:title>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/gr-qc/0501041"/>
+        <dcterms:hasPart rdf:resource="#item_1741"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_73">
+        <dc:title>Reading given by Csaba</dc:title>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/1809.04994"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/2106.05984"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/2203.13842"/>
     </z:Collection>
     <z:Collection rdf:about="#collection_71">
         <dc:title>Working with David</dc:title>
         <dcterms:hasPart rdf:resource="#collection_72"/>
+        <dcterms:hasPart rdf:resource="https://royalsocietypublishing.org/doi/10.1098/rsta.2011.0319"/>
+        <dcterms:hasPart rdf:resource="https://link.aps.org/doi/10.1103/PhysRevE.89.042119"/>
     </z:Collection>
     <z:Collection rdf:about="#collection_72">
         <dc:title>C. S. Wallace</dc:title>
@@ -15228,6 +17981,7 @@ Version Number: 2</dc:description>
     <z:Collection rdf:about="#collection_12">
         <dc:title>Past or Side interests</dc:title>
         <dcterms:hasPart rdf:resource="#collection_13"/>
+        <dcterms:hasPart rdf:resource="#collection_76"/>
         <dcterms:hasPart rdf:resource="#collection_6"/>
     </z:Collection>
     <z:Collection rdf:about="#collection_13">
@@ -15450,6 +18204,10 @@ Version Number: 2</dc:description>
         <dcterms:hasPart rdf:resource="#item_306"/>
         <dcterms:hasPart rdf:resource="#item_307"/>
         <dcterms:hasPart rdf:resource="#item_308"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_76">
+        <dc:title>Machine Learning</dc:title>
+        <dcterms:hasPart rdf:resource="https://thegradient.pub/dont-forget-about-associative-memories/"/>
     </z:Collection>
     <z:Collection rdf:about="#collection_6">
         <dc:title>Quantum &amp; Fractals</dc:title>
